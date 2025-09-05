@@ -1,6 +1,14 @@
 'use client';
 
-import { WisdomCard, JourneyTimeline, PracticeGuide } from '@/components/spiritual';
+import { 
+  WisdomCard, 
+  TripGuide, 
+  BreathingGuide, 
+  SamsaraWheel, 
+  BrahmanRealization,
+  defaultSamsaraCycles,
+  defaultBrahmanInsights
+} from '@/components/spiritual';
 
 export default function Home() {
   return (
@@ -56,13 +64,14 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="relative z-10 max-w-7xl mx-auto px-6 py-24">
+      <main className="relative z-10 max-w-7xl mx-auto px-6 py-24 space-y-32">
+        {/* Sacred Recognitions */}
         <section>
           <h2 className="font-display text-4xl md:text-5xl font-medium text-center mb-16 text-foreground">
             Sacred Recognitions
           </h2>
           
-          <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
+          <div className="grid lg:grid-cols-3 gap-8 lg:gap-12 mb-20">
             <div className="transform hover:scale-[1.02] transition-transform duration-500">
               <WisdomCard
                 variant="recognition"
@@ -90,6 +99,26 @@ export default function Home() {
               />
             </div>
           </div>
+
+          {/* Brahman Realizations */}
+          <div className="mt-20">
+            <BrahmanRealization insights={defaultBrahmanInsights} />
+          </div>
+        </section>
+
+        {/* Journey Together */}
+        <section>
+          <TripGuide />
+        </section>
+
+        {/* Sacred Breathing */}
+        <section>
+          <BreathingGuide />
+        </section>
+
+        {/* Samsara Wheel */}
+        <section>
+          <SamsaraWheel cycles={defaultSamsaraCycles} />
         </section>
 
         {/* Neti Neti section */}
@@ -103,6 +132,20 @@ export default function Home() {
               The eternal inquiry that dissolves all concepts, all identities, 
               all separations into the One that was never divided.
             </p>
+            
+            {/* Sacred geometry for neti neti */}
+            <div className="mt-12 flex justify-center">
+              <div className="w-32 h-32 relative opacity-20">
+                <svg viewBox="0 0 128 128" className="w-full h-full text-earth-stone">
+                  {/* Dissolving circles representing neti neti */}
+                  <circle cx="64" cy="64" r="50" fill="none" stroke="currentColor" strokeWidth="0.5" strokeDasharray="5,5" />
+                  <circle cx="64" cy="64" r="35" fill="none" stroke="currentColor" strokeWidth="0.5" strokeDasharray="3,3" />
+                  <circle cx="64" cy="64" r="20" fill="none" stroke="currentColor" strokeWidth="0.5" strokeDasharray="2,2" />
+                  <circle cx="64" cy="64" r="8" fill="none" stroke="currentColor" strokeWidth="0.5" strokeDasharray="1,1" />
+                  <circle cx="64" cy="64" r="2" fill="currentColor" />
+                </svg>
+              </div>
+            </div>
           </div>
         </section>
       </main>
