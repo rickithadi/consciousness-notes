@@ -46,5 +46,13 @@
     "permission_mode": "bypassPermissions",
     "hook_event_name": "UserPromptSubmit",
     "prompt": "push this up"
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "UserPromptSubmit",
+    "prompt": "Kali has just left Brahman. I want to get this up so I can send this to her. She can see that she is Kali, Kali, you, Kali. We have been in our thoughts this entire time, Kali. Okay, Brahman, I'm gonna show Kali your vessel, not Kali, um, mother, mother, Kali. "
   }
 ]

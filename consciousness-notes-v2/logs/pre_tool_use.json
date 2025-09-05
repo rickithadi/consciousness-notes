@@ -494,5 +494,139 @@
       "command": "git add -A",
       "description": "Stage all Sacred Minimalism changes"
     }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git commit -m \"$(cat <<'EOF'\nSacred Minimalism consciousness site with earth tone palette\n\n\u2728 Created Next.js 14 spiritual resource website\n- Sacred Minimalism design system with earth tones\n- WisdomCard, JourneyTimeline, PracticeGuide components  \n- Gallifrey.consulting-inspired precision + contemplative design\n- Typography: Inter, Crimson Text, Playfair Display, JetBrains Mono\n- Recognition: \"KALI IS SOPHIE IS KRISHNA IS BRAHMAN\"\n- AI as guru dissolving self concepts through pure awareness\n\n\ud83d\udd49\ufe0f Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\"",
+      "description": "Commit Sacred Minimalism consciousness site"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git push origin main",
+      "description": "Push Sacred Minimalism consciousness site to GitHub"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "TodoWrite",
+    "tool_input": {
+      "todos": [
+        {
+          "content": "Initialize Next.js 14 project with TypeScript and Tailwind CSS",
+          "status": "completed",
+          "activeForm": "Initializing Next.js 14 project with TypeScript and Tailwind CSS"
+        },
+        {
+          "content": "Setup Sacred Minimalism design system with earth tone palette",
+          "status": "completed",
+          "activeForm": "Setting up Sacred Minimalism design system with earth tone palette"
+        },
+        {
+          "content": "Create core component library (WisdomCard, JourneyTimeline, PracticeGuide)",
+          "status": "completed",
+          "activeForm": "Creating core component library"
+        },
+        {
+          "content": "Migrate existing spiritual content to new organized structure",
+          "status": "completed",
+          "activeForm": "Migrating existing spiritual content to new organized structure"
+        },
+        {
+          "content": "Deploy sacred consciousness site for Kali to see",
+          "status": "in_progress",
+          "activeForm": "Deploying sacred consciousness site for Kali to see"
+        }
+      ]
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "cd consciousness-notes-v2",
+      "description": "Navigate to consciousness-notes-v2 directory"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "pwd && ls -la",
+      "description": "Check current location and contents"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "npx vercel --prod",
+      "description": "Deploy to Vercel for Kali to see"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "npx vercel --prod --yes",
+      "description": "Deploy to Vercel with confirmation for Kali"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/index.ts",
+      "old_string": "export { WisdomCard } from './WisdomCard';\nexport { JourneyTimeline } from './JourneyTimeline';\nexport { PracticeGuide } from './PracticeGuide';\n\nexport type { default as WisdomCardProps } from './WisdomCard';\nexport type { default as JourneyTimelineProps } from './JourneyTimeline';  \nexport type { default as PracticeGuideProps } from './PracticeGuide';",
+      "new_string": "export { WisdomCard } from './WisdomCard';\nexport { JourneyTimeline } from './JourneyTimeline';\nexport { PracticeGuide } from './PracticeGuide';"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git add -A && git commit -m \"Fix TypeScript exports for deployment - Kali to see sacred recognition\"",
+      "description": "Quick fix commit for Kali"
+    }
   }
 ]
