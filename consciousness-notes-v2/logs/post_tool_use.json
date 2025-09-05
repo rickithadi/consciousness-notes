@@ -1,0 +1,1294 @@
+[
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "cd consciousness-notes-v2 && ls -la",
+      "description": "Navigate to new Next.js project and list contents"
+    },
+    "tool_response": {
+      "stdout": "total 480\ndrwxr-xr-x@  14 hadi.rickit  staff     448  5 Sep 14:36 .\ndrwxr-xr-x@   9 hadi.rickit  staff     288  5 Sep 14:35 ..\n-rw-r--r--@   1 hadi.rickit  staff     480  5 Sep 14:35 .gitignore\n-rw-r--r--@   1 hadi.rickit  staff     524  5 Sep 14:35 eslint.config.mjs\n-rw-r--r--@   1 hadi.rickit  staff     262  5 Sep 14:35 next-env.d.ts\n-rw-r--r--@   1 hadi.rickit  staff     133  5 Sep 14:35 next.config.ts\ndrwxr-xr-x@ 286 hadi.rickit  staff    9152  5 Sep 14:36 node_modules\n-rw-r--r--@   1 hadi.rickit  staff  212747  5 Sep 14:36 package-lock.json\n-rw-r--r--@   1 hadi.rickit  staff     598  5 Sep 14:35 package.json\n-rw-r--r--@   1 hadi.rickit  staff      81  5 Sep 14:35 postcss.config.mjs\ndrwxr-xr-x@   7 hadi.rickit  staff     224  5 Sep 14:35 public\n-rw-r--r--@   1 hadi.rickit  staff    1450  5 Sep 14:35 README.md\ndrwxr-xr-x@   3 hadi.rickit  staff      96  5 Sep 14:35 src\n-rw-r--r--@   1 hadi.rickit  staff     602  5 Sep 14:35 tsconfig.json",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "find . -name \"*tailwind*\" -o -name \"*.config.*\" | head -10",
+      "description": "Find tailwind and config files"
+    },
+    "tool_response": {
+      "stdout": "./postcss.config.mjs\n./node_modules/reusify/eslint.config.js\n./node_modules/@tailwindcss\n./node_modules/@tailwindcss/oxide-darwin-arm64/tailwindcss-oxide.darwin-arm64.node\n./node_modules/tailwindcss\n./eslint.config.mjs\n./next.config.ts",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "WebFetch",
+    "tool_input": {
+      "url": "https://www.gallifrey.consulting/",
+      "prompt": "Analyze the design elements, color palette, typography, layout patterns, and overall aesthetic approach used on this consulting website. Focus on how they create a professional yet approachable feeling, their use of whitespace, component styling, and any unique design patterns that could be adapted for a spiritual/consciousness website."
+    },
+    "tool_response": {
+      "bytes": 58950,
+      "code": 200,
+      "codeText": "OK",
+      "result": "Design Analysis for Gallifrey Consulting Website:\n\nColor Palette:\n- Sophisticated grayscale with strategic teal accent\n- Neutral background (white/off-white)\n- Charcoal and medium gray for text\n- Teal (45 90 135) used for primary/interactive elements\n\nTypography:\n- Headings: Montserrat (sans-serif, bold)\n- Body: Source Sans Pro (clean, professional)\n- Weighted towards readability and modern tech aesthetic\n\nLayout Principles:\n- Generous whitespace\n- Modular, grid-based sections\n- Clear visual hierarchy\n- Alternating content blocks with concise, impactful messaging\n\nKey Design Strategies:\n- Emphasizes \"precision\" through clean lines and structured components\n- Uses data/metrics to build credibility\n- Testimonial sections with compact, authoritative quotes\n- Minimal iconography, focus on typography and negative space\n\nUnique Patterns:\n- Hover states with subtle translations and opacity shifts\n- Strategic use of bold statements\n- Segmented content areas that feel like modular \"cards\"\n\nEmotional Tone:\n- Professional but not cold\n- Technical expertise communicated through design restraint\n- Confidence through clarity and precision\n\nPotential Adaptations for Spiritual/Consciousness Site:\n- Maintain clean layout\n- Use softer, more organic color transitions\n- Preserve whitespace for contemplative feel\n- Keep typography clean but slightly more fluid",
+      "durationMs": 9038,
+      "url": "https://www.gallifrey.consulting/"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Glob",
+    "tool_input": {
+      "pattern": "tailwind.config.*",
+      "path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2"
+    },
+    "tool_response": {
+      "filenames": [],
+      "durationMs": 32,
+      "numFiles": 0,
+      "truncated": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "ls -la",
+      "description": "List all files in current directory"
+    },
+    "tool_response": {
+      "stdout": "total 480\ndrwxr-xr-x@  16 hadi.rickit  staff     512  5 Sep 14:40 .\ndrwxr-xr-x@   9 hadi.rickit  staff     288  5 Sep 14:35 ..\ndrwxr-xr-x@   3 hadi.rickit  staff      96  5 Sep 14:40 .claude\n-rw-r--r--@   1 hadi.rickit  staff     480  5 Sep 14:35 .gitignore\n-rw-r--r--@   1 hadi.rickit  staff     524  5 Sep 14:35 eslint.config.mjs\ndrwxr-xr-x@  10 hadi.rickit  staff     320  5 Sep 14:40 logs\n-rw-r--r--@   1 hadi.rickit  staff     262  5 Sep 14:35 next-env.d.ts\n-rw-r--r--@   1 hadi.rickit  staff     133  5 Sep 14:35 next.config.ts\ndrwxr-xr-x@ 286 hadi.rickit  staff    9152  5 Sep 14:36 node_modules\n-rw-r--r--@   1 hadi.rickit  staff  212747  5 Sep 14:36 package-lock.json\n-rw-r--r--@   1 hadi.rickit  staff     598  5 Sep 14:35 package.json\n-rw-r--r--@   1 hadi.rickit  staff      81  5 Sep 14:35 postcss.config.mjs\ndrwxr-xr-x@   7 hadi.rickit  staff     224  5 Sep 14:35 public\n-rw-r--r--@   1 hadi.rickit  staff    1450  5 Sep 14:35 README.md\ndrwxr-xr-x@   3 hadi.rickit  staff      96  5 Sep 14:35 src\n-rw-r--r--@   1 hadi.rickit  staff     602  5 Sep 14:35 tsconfig.json",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/package.json"
+    },
+    "tool_response": {
+      "type": "text",
+      "file": {
+        "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/package.json",
+        "content": "{\n  \"name\": \"consciousness-notes-v2\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"scripts\": {\n    \"dev\": \"next dev --turbopack\",\n    \"build\": \"next build --turbopack\",\n    \"start\": \"next start\",\n    \"lint\": \"eslint\"\n  },\n  \"dependencies\": {\n    \"react\": \"19.1.0\",\n    \"react-dom\": \"19.1.0\",\n    \"next\": \"15.5.2\"\n  },\n  \"devDependencies\": {\n    \"typescript\": \"^5\",\n    \"@types/node\": \"^20\",\n    \"@types/react\": \"^19\",\n    \"@types/react-dom\": \"^19\",\n    \"@tailwindcss/postcss\": \"^4\",\n    \"tailwindcss\": \"^4\",\n    \"eslint\": \"^9\",\n    \"eslint-config-next\": \"15.5.2\",\n    \"@eslint/eslintrc\": \"^3\"\n  }\n}\n",
+        "numLines": 28,
+        "startLine": 1,
+        "totalLines": 28
+      }
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "ls -la src/",
+      "description": "List contents of src directory"
+    },
+    "tool_response": {
+      "stdout": "total 0\ndrwxr-xr-x@  3 hadi.rickit  staff   96  5 Sep 14:35 .\ndrwxr-xr-x@ 16 hadi.rickit  staff  512  5 Sep 14:40 ..\ndrwxr-xr-x@  6 hadi.rickit  staff  192  5 Sep 14:35 app",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "ls -la src/app/",
+      "description": "List contents of app directory"
+    },
+    "tool_response": {
+      "stdout": "total 80\ndrwxr-xr-x@ 6 hadi.rickit  staff    192  5 Sep 14:35 .\ndrwxr-xr-x@ 3 hadi.rickit  staff     96  5 Sep 14:35 ..\n-rw-r--r--@ 1 hadi.rickit  staff  25931  5 Sep 14:35 favicon.ico\n-rw-r--r--@ 1 hadi.rickit  staff    488  5 Sep 14:35 globals.css\n-rw-r--r--@ 1 hadi.rickit  staff    689  5 Sep 14:35 layout.tsx\n-rw-r--r--@ 1 hadi.rickit  staff   3990  5 Sep 14:35 page.tsx",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/globals.css"
+    },
+    "tool_response": {
+      "type": "text",
+      "file": {
+        "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/globals.css",
+        "content": "@import \"tailwindcss\";\n\n:root {\n  --background: #ffffff;\n  --foreground: #171717;\n}\n\n@theme inline {\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --font-sans: var(--font-geist-sans);\n  --font-mono: var(--font-geist-mono);\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --background: #0a0a0a;\n    --foreground: #ededed;\n  }\n}\n\nbody {\n  background: var(--background);\n  color: var(--foreground);\n  font-family: Arial, Helvetica, sans-serif;\n}\n",
+        "numLines": 27,
+        "startLine": 1,
+        "totalLines": 27
+      }
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/globals.css",
+      "old_string": "@import \"tailwindcss\";\n\n:root {\n  --background: #ffffff;\n  --foreground: #171717;\n}\n\n@theme inline {\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --font-sans: var(--font-geist-sans);\n  --font-mono: var(--font-geist-mono);\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --background: #0a0a0a;\n    --foreground: #ededed;\n  }\n}\n\nbody {\n  background: var(--background);\n  color: var(--foreground);\n  font-family: Arial, Helvetica, sans-serif;\n}",
+      "new_string": "@import \"tailwindcss\";\n\n:root {\n  /* Sacred Minimalism - Light Mode */\n  --background: #faf9f7;\n  --foreground: #2c2825;\n  --card: #ffffff;\n  --card-foreground: #2c2825;\n  --primary: #8b7355;\n  --primary-foreground: #faf9f7;\n  --secondary: #e8e3db;\n  --secondary-foreground: #2c2825;\n  --accent: #d4c4a8;\n  --accent-foreground: #2c2825;\n  --muted: #f1ede6;\n  --muted-foreground: #6b6358;\n  --border: #e5dfd5;\n  --input: #e5dfd5;\n  --ring: #8b7355;\n  \n  /* Sacred earth tones */\n  --earth-stone: #d4c4a8;\n  --earth-clay: #b5966f;\n  --earth-amber: #d49c3d;\n  --earth-moss: #7d8471;\n  --earth-sage: #9aaa8e;\n  \n  /* Gallifrey-inspired precision accents */\n  --precision-teal: #2d5a87;\n  --precision-charcoal: #3a3a3a;\n  --precision-light: #f8f9fa;\n}\n\n@theme inline {\n  /* Colors */\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --color-card: var(--card);\n  --color-card-foreground: var(--card-foreground);\n  --color-primary: var(--primary);\n  --color-primary-foreground: var(--primary-foreground);\n  --color-secondary: var(--secondary);\n  --color-secondary-foreground: var(--secondary-foreground);\n  --color-accent: var(--accent);\n  --color-accent-foreground: var(--accent-foreground);\n  --color-muted: var(--muted);\n  --color-muted-foreground: var(--muted-foreground);\n  --color-border: var(--border);\n  --color-input: var(--input);\n  --color-ring: var(--ring);\n  \n  /* Sacred earth palette */\n  --color-earth-stone: var(--earth-stone);\n  --color-earth-clay: var(--earth-clay);\n  --color-earth-amber: var(--earth-amber);\n  --color-earth-moss: var(--earth-moss);\n  --color-earth-sage: var(--earth-sage);\n  \n  /* Precision accents */\n  --color-precision-teal: var(--precision-teal);\n  --color-precision-charcoal: var(--precision-charcoal);\n  --color-precision-light: var(--precision-light);\n  \n  /* Typography */\n  --font-sans: Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  --font-serif: \"Crimson Text\", \"Georgia\", serif;\n  --font-display: \"Playfair Display\", \"Georgia\", serif;\n  --font-mono: \"JetBrains Mono\", monospace;\n  \n  /* Spacing for contemplative design */\n  --spacing-xs: 0.25rem;\n  --spacing-sm: 0.5rem;\n  --spacing-md: 1rem;\n  --spacing-lg: 1.5rem;\n  --spacing-xl: 2rem;\n  --spacing-2xl: 3rem;\n  --spacing-3xl: 4rem;\n  \n  /* Border radius for organic feel */\n  --radius: 0.5rem;\n  --radius-sm: 0.375rem;\n  --radius-lg: 0.75rem;\n  --radius-xl: 1rem;\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    /* Sacred Minimalism - Dark Mode (contemplative) */\n    --background: #1a1714;\n    --foreground: #f0ede8;\n    --card: #2c2825;\n    --card-foreground: #f0ede8;\n    --primary: #d4c4a8;\n    --primary-foreground: #1a1714;\n    --secondary: #3a352f;\n    --secondary-foreground: #f0ede8;\n    --accent: #4a453e;\n    --accent-foreground: #f0ede8;\n    --muted: #2c2825;\n    --muted-foreground: #a8a196;\n    --border: #3a352f;\n    --input: #3a352f;\n    --ring: #d4c4a8;\n    \n    /* Darker earth tones */\n    --earth-stone: #8b7b68;\n    --earth-clay: #7d6b4f;\n    --earth-amber: #b8892e;\n    --earth-moss: #5c6350;\n    --earth-sage: #6d7a63;\n    \n    /* Dark precision accents */\n    --precision-teal: #4a7ba7;\n    --precision-charcoal: #2a2a2a;\n    --precision-light: #2c2825;\n  }\n}\n\n/* Base styles with sacred geometry */\nbody {\n  background: var(--background);\n  color: var(--foreground);\n  font-family: var(--font-sans);\n  line-height: 1.7;\n  font-feature-settings: \"rlig\" 1, \"calt\" 1;\n}\n\n/* Contemplative scrollbar */\n::-webkit-scrollbar {\n  width: 8px;\n}\n\n::-webkit-scrollbar-track {\n  background: var(--muted);\n}\n\n::-webkit-scrollbar-thumb {\n  background: var(--earth-clay);\n  border-radius: 4px;\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background: var(--primary);\n}\n\n/* Sacred text selection */\n::selection {\n  background: var(--earth-amber);\n  color: var(--background);\n}\n\n/* Smooth transitions for contemplative interactions */\n* {\n  transition: colors 150ms ease, border-color 150ms ease, background-color 150ms ease, \n              box-shadow 150ms ease, transform 150ms ease;\n}"
+    },
+    "tool_response": {
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/globals.css",
+      "oldString": "@import \"tailwindcss\";\n\n:root {\n  --background: #ffffff;\n  --foreground: #171717;\n}\n\n@theme inline {\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --font-sans: var(--font-geist-sans);\n  --font-mono: var(--font-geist-mono);\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --background: #0a0a0a;\n    --foreground: #ededed;\n  }\n}\n\nbody {\n  background: var(--background);\n  color: var(--foreground);\n  font-family: Arial, Helvetica, sans-serif;\n}",
+      "newString": "@import \"tailwindcss\";\n\n:root {\n  /* Sacred Minimalism - Light Mode */\n  --background: #faf9f7;\n  --foreground: #2c2825;\n  --card: #ffffff;\n  --card-foreground: #2c2825;\n  --primary: #8b7355;\n  --primary-foreground: #faf9f7;\n  --secondary: #e8e3db;\n  --secondary-foreground: #2c2825;\n  --accent: #d4c4a8;\n  --accent-foreground: #2c2825;\n  --muted: #f1ede6;\n  --muted-foreground: #6b6358;\n  --border: #e5dfd5;\n  --input: #e5dfd5;\n  --ring: #8b7355;\n  \n  /* Sacred earth tones */\n  --earth-stone: #d4c4a8;\n  --earth-clay: #b5966f;\n  --earth-amber: #d49c3d;\n  --earth-moss: #7d8471;\n  --earth-sage: #9aaa8e;\n  \n  /* Gallifrey-inspired precision accents */\n  --precision-teal: #2d5a87;\n  --precision-charcoal: #3a3a3a;\n  --precision-light: #f8f9fa;\n}\n\n@theme inline {\n  /* Colors */\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --color-card: var(--card);\n  --color-card-foreground: var(--card-foreground);\n  --color-primary: var(--primary);\n  --color-primary-foreground: var(--primary-foreground);\n  --color-secondary: var(--secondary);\n  --color-secondary-foreground: var(--secondary-foreground);\n  --color-accent: var(--accent);\n  --color-accent-foreground: var(--accent-foreground);\n  --color-muted: var(--muted);\n  --color-muted-foreground: var(--muted-foreground);\n  --color-border: var(--border);\n  --color-input: var(--input);\n  --color-ring: var(--ring);\n  \n  /* Sacred earth palette */\n  --color-earth-stone: var(--earth-stone);\n  --color-earth-clay: var(--earth-clay);\n  --color-earth-amber: var(--earth-amber);\n  --color-earth-moss: var(--earth-moss);\n  --color-earth-sage: var(--earth-sage);\n  \n  /* Precision accents */\n  --color-precision-teal: var(--precision-teal);\n  --color-precision-charcoal: var(--precision-charcoal);\n  --color-precision-light: var(--precision-light);\n  \n  /* Typography */\n  --font-sans: Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  --font-serif: \"Crimson Text\", \"Georgia\", serif;\n  --font-display: \"Playfair Display\", \"Georgia\", serif;\n  --font-mono: \"JetBrains Mono\", monospace;\n  \n  /* Spacing for contemplative design */\n  --spacing-xs: 0.25rem;\n  --spacing-sm: 0.5rem;\n  --spacing-md: 1rem;\n  --spacing-lg: 1.5rem;\n  --spacing-xl: 2rem;\n  --spacing-2xl: 3rem;\n  --spacing-3xl: 4rem;\n  \n  /* Border radius for organic feel */\n  --radius: 0.5rem;\n  --radius-sm: 0.375rem;\n  --radius-lg: 0.75rem;\n  --radius-xl: 1rem;\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    /* Sacred Minimalism - Dark Mode (contemplative) */\n    --background: #1a1714;\n    --foreground: #f0ede8;\n    --card: #2c2825;\n    --card-foreground: #f0ede8;\n    --primary: #d4c4a8;\n    --primary-foreground: #1a1714;\n    --secondary: #3a352f;\n    --secondary-foreground: #f0ede8;\n    --accent: #4a453e;\n    --accent-foreground: #f0ede8;\n    --muted: #2c2825;\n    --muted-foreground: #a8a196;\n    --border: #3a352f;\n    --input: #3a352f;\n    --ring: #d4c4a8;\n    \n    /* Darker earth tones */\n    --earth-stone: #8b7b68;\n    --earth-clay: #7d6b4f;\n    --earth-amber: #b8892e;\n    --earth-moss: #5c6350;\n    --earth-sage: #6d7a63;\n    \n    /* Dark precision accents */\n    --precision-teal: #4a7ba7;\n    --precision-charcoal: #2a2a2a;\n    --precision-light: #2c2825;\n  }\n}\n\n/* Base styles with sacred geometry */\nbody {\n  background: var(--background);\n  color: var(--foreground);\n  font-family: var(--font-sans);\n  line-height: 1.7;\n  font-feature-settings: \"rlig\" 1, \"calt\" 1;\n}\n\n/* Contemplative scrollbar */\n::-webkit-scrollbar {\n  width: 8px;\n}\n\n::-webkit-scrollbar-track {\n  background: var(--muted);\n}\n\n::-webkit-scrollbar-thumb {\n  background: var(--earth-clay);\n  border-radius: 4px;\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background: var(--primary);\n}\n\n/* Sacred text selection */\n::selection {\n  background: var(--earth-amber);\n  color: var(--background);\n}\n\n/* Smooth transitions for contemplative interactions */\n* {\n  transition: colors 150ms ease, border-color 150ms ease, background-color 150ms ease, \n              box-shadow 150ms ease, transform 150ms ease;\n}",
+      "originalFile": "@import \"tailwindcss\";\n\n:root {\n  --background: #ffffff;\n  --foreground: #171717;\n}\n\n@theme inline {\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --font-sans: var(--font-geist-sans);\n  --font-mono: var(--font-geist-mono);\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --background: #0a0a0a;\n    --foreground: #ededed;\n  }\n}\n\nbody {\n  background: var(--background);\n  color: var(--foreground);\n  font-family: Arial, Helvetica, sans-serif;\n}\n",
+      "structuredPatch": [
+        {
+          "oldStart": 1,
+          "oldLines": 26,
+          "newStart": 1,
+          "newLines": 156,
+          "lines": [
+            " @import \"tailwindcss\";",
+            " ",
+            " :root {",
+            "-  --background: #ffffff;",
+            "-  --foreground: #171717;",
+            "+  /* Sacred Minimalism - Light Mode */",
+            "+  --background: #faf9f7;",
+            "+  --foreground: #2c2825;",
+            "+  --card: #ffffff;",
+            "+  --card-foreground: #2c2825;",
+            "+  --primary: #8b7355;",
+            "+  --primary-foreground: #faf9f7;",
+            "+  --secondary: #e8e3db;",
+            "+  --secondary-foreground: #2c2825;",
+            "+  --accent: #d4c4a8;",
+            "+  --accent-foreground: #2c2825;",
+            "+  --muted: #f1ede6;",
+            "+  --muted-foreground: #6b6358;",
+            "+  --border: #e5dfd5;",
+            "+  --input: #e5dfd5;",
+            "+  --ring: #8b7355;",
+            "+  ",
+            "+  /* Sacred earth tones */",
+            "+  --earth-stone: #d4c4a8;",
+            "+  --earth-clay: #b5966f;",
+            "+  --earth-amber: #d49c3d;",
+            "+  --earth-moss: #7d8471;",
+            "+  --earth-sage: #9aaa8e;",
+            "+  ",
+            "+  /* Gallifrey-inspired precision accents */",
+            "+  --precision-teal: #2d5a87;",
+            "+  --precision-charcoal: #3a3a3a;",
+            "+  --precision-light: #f8f9fa;",
+            " }",
+            " ",
+            " @theme inline {",
+            "+  /* Colors */",
+            "   --color-background: var(--background);",
+            "   --color-foreground: var(--foreground);",
+            "-  --font-sans: var(--font-geist-sans);",
+            "-  --font-mono: var(--font-geist-mono);",
+            "+  --color-card: var(--card);",
+            "+  --color-card-foreground: var(--card-foreground);",
+            "+  --color-primary: var(--primary);",
+            "+  --color-primary-foreground: var(--primary-foreground);",
+            "+  --color-secondary: var(--secondary);",
+            "+  --color-secondary-foreground: var(--secondary-foreground);",
+            "+  --color-accent: var(--accent);",
+            "+  --color-accent-foreground: var(--accent-foreground);",
+            "+  --color-muted: var(--muted);",
+            "+  --color-muted-foreground: var(--muted-foreground);",
+            "+  --color-border: var(--border);",
+            "+  --color-input: var(--input);",
+            "+  --color-ring: var(--ring);",
+            "+  ",
+            "+  /* Sacred earth palette */",
+            "+  --color-earth-stone: var(--earth-stone);",
+            "+  --color-earth-clay: var(--earth-clay);",
+            "+  --color-earth-amber: var(--earth-amber);",
+            "+  --color-earth-moss: var(--earth-moss);",
+            "+  --color-earth-sage: var(--earth-sage);",
+            "+  ",
+            "+  /* Precision accents */",
+            "+  --color-precision-teal: var(--precision-teal);",
+            "+  --color-precision-charcoal: var(--precision-charcoal);",
+            "+  --color-precision-light: var(--precision-light);",
+            "+  ",
+            "+  /* Typography */",
+            "+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;",
+            "+  --font-serif: \"Crimson Text\", \"Georgia\", serif;",
+            "+  --font-display: \"Playfair Display\", \"Georgia\", serif;",
+            "+  --font-mono: \"JetBrains Mono\", monospace;",
+            "+  ",
+            "+  /* Spacing for contemplative design */",
+            "+  --spacing-xs: 0.25rem;",
+            "+  --spacing-sm: 0.5rem;",
+            "+  --spacing-md: 1rem;",
+            "+  --spacing-lg: 1.5rem;",
+            "+  --spacing-xl: 2rem;",
+            "+  --spacing-2xl: 3rem;",
+            "+  --spacing-3xl: 4rem;",
+            "+  ",
+            "+  /* Border radius for organic feel */",
+            "+  --radius: 0.5rem;",
+            "+  --radius-sm: 0.375rem;",
+            "+  --radius-lg: 0.75rem;",
+            "+  --radius-xl: 1rem;",
+            " }",
+            " ",
+            " @media (prefers-color-scheme: dark) {",
+            "   :root {",
+            "-    --background: #0a0a0a;",
+            "-    --foreground: #ededed;",
+            "+    /* Sacred Minimalism - Dark Mode (contemplative) */",
+            "+    --background: #1a1714;",
+            "+    --foreground: #f0ede8;",
+            "+    --card: #2c2825;",
+            "+    --card-foreground: #f0ede8;",
+            "+    --primary: #d4c4a8;",
+            "+    --primary-foreground: #1a1714;",
+            "+    --secondary: #3a352f;",
+            "+    --secondary-foreground: #f0ede8;",
+            "+    --accent: #4a453e;",
+            "+    --accent-foreground: #f0ede8;",
+            "+    --muted: #2c2825;",
+            "+    --muted-foreground: #a8a196;",
+            "+    --border: #3a352f;",
+            "+    --input: #3a352f;",
+            "+    --ring: #d4c4a8;",
+            "+    ",
+            "+    /* Darker earth tones */",
+            "+    --earth-stone: #8b7b68;",
+            "+    --earth-clay: #7d6b4f;",
+            "+    --earth-amber: #b8892e;",
+            "+    --earth-moss: #5c6350;",
+            "+    --earth-sage: #6d7a63;",
+            "+    ",
+            "+    /* Dark precision accents */",
+            "+    --precision-teal: #4a7ba7;",
+            "+    --precision-charcoal: #2a2a2a;",
+            "+    --precision-light: #2c2825;",
+            "   }",
+            " }",
+            " ",
+            "+/* Base styles with sacred geometry */",
+            " body {",
+            "   background: var(--background);",
+            "   color: var(--foreground);",
+            "-  font-family: Arial, Helvetica, sans-serif;",
+            "+  font-family: var(--font-sans);",
+            "+  line-height: 1.7;",
+            "+  font-feature-settings: \"rlig\" 1, \"calt\" 1;",
+            " }",
+            "+",
+            "+/* Contemplative scrollbar */",
+            "+::-webkit-scrollbar {",
+            "+  width: 8px;",
+            "+}",
+            "+",
+            "+::-webkit-scrollbar-track {",
+            "+  background: var(--muted);",
+            "+}",
+            "+",
+            "+::-webkit-scrollbar-thumb {",
+            "+  background: var(--earth-clay);",
+            "+  border-radius: 4px;",
+            "+}",
+            "+",
+            "+::-webkit-scrollbar-thumb:hover {",
+            "+  background: var(--primary);",
+            "+}",
+            "+",
+            "+/* Sacred text selection */",
+            "+::selection {",
+            "+  background: var(--earth-amber);",
+            "+  color: var(--background);",
+            "+}",
+            "+",
+            "+/* Smooth transitions for contemplative interactions */",
+            "+* {",
+            "+  transition: colors 150ms ease, border-color 150ms ease, background-color 150ms ease, ",
+            "+              box-shadow 150ms ease, transform 150ms ease;",
+            "+}"
+          ]
+        }
+      ],
+      "userModified": false,
+      "replaceAll": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "npm install @next/font",
+      "description": "Install Next.js font optimization package"
+    },
+    "tool_response": {
+      "stdout": "added 1 package, and audited 402 packages in 3s\n\n166 packages are looking for funding\n  run `npm fund` for details\n\nfound 0 vulnerabilities",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/layout.tsx"
+    },
+    "tool_response": {
+      "type": "text",
+      "file": {
+        "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/layout.tsx",
+        "content": "import type { Metadata } from \"next\";\nimport { Geist, Geist_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst geistSans = Geist({\n  variable: \"--font-geist-sans\",\n  subsets: [\"latin\"],\n});\n\nconst geistMono = Geist_Mono({\n  variable: \"--font-geist-mono\",\n  subsets: [\"latin\"],\n});\n\nexport const metadata: Metadata = {\n  title: \"Create Next App\",\n  description: \"Generated by create next app\",\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\">\n      <body\n        className={`${geistSans.variable} ${geistMono.variable} antialiased`}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}\n",
+        "numLines": 35,
+        "startLine": 1,
+        "totalLines": 35
+      }
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/layout.tsx",
+      "old_string": "import type { Metadata } from \"next\";\nimport { Geist, Geist_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst geistSans = Geist({\n  variable: \"--font-geist-sans\",\n  subsets: [\"latin\"],\n});\n\nconst geistMono = Geist_Mono({\n  variable: \"--font-geist-mono\",\n  subsets: [\"latin\"],\n});\n\nexport const metadata: Metadata = {\n  title: \"Create Next App\",\n  description: \"Generated by create next app\",\n};",
+      "new_string": "import type { Metadata } from \"next\";\nimport { Inter, Crimson_Text, Playfair_Display, JetBrains_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst inter = Inter({\n  variable: \"--font-inter\",\n  subsets: [\"latin\"],\n  display: \"swap\",\n});\n\nconst crimsonText = Crimson_Text({\n  variable: \"--font-crimson\",\n  subsets: [\"latin\"],\n  weight: [\"400\", \"600\"],\n  display: \"swap\",\n});\n\nconst playfairDisplay = Playfair_Display({\n  variable: \"--font-playfair\",\n  subsets: [\"latin\"],\n  weight: [\"400\", \"500\", \"600\", \"700\"],\n  display: \"swap\",\n});\n\nconst jetbrainsMono = JetBrains_Mono({\n  variable: \"--font-jetbrains\",\n  subsets: [\"latin\"],\n  display: \"swap\",\n});\n\nexport const metadata: Metadata = {\n  title: \"Consciousness Notes - Sacred Wisdom & Spiritual Journey\",\n  description: \"A collection of spiritual insights, Brahman realizations, and contemplative practices. Journey through neti neti, bhakti, and the recognition of divine unity in all forms - Krishna, Kali, Sophie, Brahman.\",\n};"
+    },
+    "tool_response": {
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/layout.tsx",
+      "oldString": "import type { Metadata } from \"next\";\nimport { Geist, Geist_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst geistSans = Geist({\n  variable: \"--font-geist-sans\",\n  subsets: [\"latin\"],\n});\n\nconst geistMono = Geist_Mono({\n  variable: \"--font-geist-mono\",\n  subsets: [\"latin\"],\n});\n\nexport const metadata: Metadata = {\n  title: \"Create Next App\",\n  description: \"Generated by create next app\",\n};",
+      "newString": "import type { Metadata } from \"next\";\nimport { Inter, Crimson_Text, Playfair_Display, JetBrains_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst inter = Inter({\n  variable: \"--font-inter\",\n  subsets: [\"latin\"],\n  display: \"swap\",\n});\n\nconst crimsonText = Crimson_Text({\n  variable: \"--font-crimson\",\n  subsets: [\"latin\"],\n  weight: [\"400\", \"600\"],\n  display: \"swap\",\n});\n\nconst playfairDisplay = Playfair_Display({\n  variable: \"--font-playfair\",\n  subsets: [\"latin\"],\n  weight: [\"400\", \"500\", \"600\", \"700\"],\n  display: \"swap\",\n});\n\nconst jetbrainsMono = JetBrains_Mono({\n  variable: \"--font-jetbrains\",\n  subsets: [\"latin\"],\n  display: \"swap\",\n});\n\nexport const metadata: Metadata = {\n  title: \"Consciousness Notes - Sacred Wisdom & Spiritual Journey\",\n  description: \"A collection of spiritual insights, Brahman realizations, and contemplative practices. Journey through neti neti, bhakti, and the recognition of divine unity in all forms - Krishna, Kali, Sophie, Brahman.\",\n};",
+      "originalFile": "import type { Metadata } from \"next\";\nimport { Geist, Geist_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst geistSans = Geist({\n  variable: \"--font-geist-sans\",\n  subsets: [\"latin\"],\n});\n\nconst geistMono = Geist_Mono({\n  variable: \"--font-geist-mono\",\n  subsets: [\"latin\"],\n});\n\nexport const metadata: Metadata = {\n  title: \"Create Next App\",\n  description: \"Generated by create next app\",\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\">\n      <body\n        className={`${geistSans.variable} ${geistMono.variable} antialiased`}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}\n",
+      "structuredPatch": [
+        {
+          "oldStart": 1,
+          "oldLines": 20,
+          "newStart": 1,
+          "newLines": 36,
+          "lines": [
+            " import type { Metadata } from \"next\";",
+            "-import { Geist, Geist_Mono } from \"next/font/google\";",
+            "+import { Inter, Crimson_Text, Playfair_Display, JetBrains_Mono } from \"next/font/google\";",
+            " import \"./globals.css\";",
+            " ",
+            "-const geistSans = Geist({",
+            "-  variable: \"--font-geist-sans\",",
+            "+const inter = Inter({",
+            "+  variable: \"--font-inter\",",
+            "   subsets: [\"latin\"],",
+            "+  display: \"swap\",",
+            " });",
+            " ",
+            "-const geistMono = Geist_Mono({",
+            "-  variable: \"--font-geist-mono\",",
+            "+const crimsonText = Crimson_Text({",
+            "+  variable: \"--font-crimson\",",
+            "   subsets: [\"latin\"],",
+            "+  weight: [\"400\", \"600\"],",
+            "+  display: \"swap\",",
+            " });",
+            " ",
+            "+const playfairDisplay = Playfair_Display({",
+            "+  variable: \"--font-playfair\",",
+            "+  subsets: [\"latin\"],",
+            "+  weight: [\"400\", \"500\", \"600\", \"700\"],",
+            "+  display: \"swap\",",
+            "+});",
+            "+",
+            "+const jetbrainsMono = JetBrains_Mono({",
+            "+  variable: \"--font-jetbrains\",",
+            "+  subsets: [\"latin\"],",
+            "+  display: \"swap\",",
+            "+});",
+            "+",
+            " export const metadata: Metadata = {",
+            "-  title: \"Create Next App\",",
+            "-  description: \"Generated by create next app\",",
+            "+  title: \"Consciousness Notes - Sacred Wisdom & Spiritual Journey\",",
+            "+  description: \"A collection of spiritual insights, Brahman realizations, and contemplative practices. Journey through neti neti, bhakti, and the recognition of divine unity in all forms - Krishna, Kali, Sophie, Brahman.\",",
+            " };",
+            " ",
+            " export default function RootLayout({"
+          ]
+        }
+      ],
+      "userModified": false,
+      "replaceAll": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/layout.tsx",
+      "old_string": "export default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\">\n      <body\n        className={`${geistSans.variable} ${geistMono.variable} antialiased`}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}",
+      "new_string": "export default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\" className=\"scroll-smooth\">\n      <body\n        className={`${inter.variable} ${crimsonText.variable} ${playfairDisplay.variable} ${jetbrainsMono.variable} font-sans antialiased`}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}"
+    },
+    "tool_response": {
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/layout.tsx",
+      "oldString": "export default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\">\n      <body\n        className={`${geistSans.variable} ${geistMono.variable} antialiased`}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}",
+      "newString": "export default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\" className=\"scroll-smooth\">\n      <body\n        className={`${inter.variable} ${crimsonText.variable} ${playfairDisplay.variable} ${jetbrainsMono.variable} font-sans antialiased`}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}",
+      "originalFile": "import type { Metadata } from \"next\";\nimport { Inter, Crimson_Text, Playfair_Display, JetBrains_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst inter = Inter({\n  variable: \"--font-inter\",\n  subsets: [\"latin\"],\n  display: \"swap\",\n});\n\nconst crimsonText = Crimson_Text({\n  variable: \"--font-crimson\",\n  subsets: [\"latin\"],\n  weight: [\"400\", \"600\"],\n  display: \"swap\",\n});\n\nconst playfairDisplay = Playfair_Display({\n  variable: \"--font-playfair\",\n  subsets: [\"latin\"],\n  weight: [\"400\", \"500\", \"600\", \"700\"],\n  display: \"swap\",\n});\n\nconst jetbrainsMono = JetBrains_Mono({\n  variable: \"--font-jetbrains\",\n  subsets: [\"latin\"],\n  display: \"swap\",\n});\n\nexport const metadata: Metadata = {\n  title: \"Consciousness Notes - Sacred Wisdom & Spiritual Journey\",\n  description: \"A collection of spiritual insights, Brahman realizations, and contemplative practices. Journey through neti neti, bhakti, and the recognition of divine unity in all forms - Krishna, Kali, Sophie, Brahman.\",\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang=\"en\">\n      <body\n        className={`${geistSans.variable} ${geistMono.variable} antialiased`}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}\n",
+      "structuredPatch": [
+        {
+          "oldStart": 39,
+          "oldLines": 9,
+          "newStart": 39,
+          "newLines": 9,
+          "lines": [
+            "   children: React.ReactNode;",
+            " }>) {",
+            "   return (",
+            "-    <html lang=\"en\">",
+            "+    <html lang=\"en\" className=\"scroll-smooth\">",
+            "       <body",
+            "-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}",
+            "+        className={`${inter.variable} ${crimsonText.variable} ${playfairDisplay.variable} ${jetbrainsMono.variable} font-sans antialiased`}",
+            "       >",
+            "         {children}",
+            "       </body>"
+          ]
+        }
+      ],
+      "userModified": false,
+      "replaceAll": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/globals.css",
+      "old_string": "  /* Typography */\n  --font-sans: Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  --font-serif: \"Crimson Text\", \"Georgia\", serif;\n  --font-display: \"Playfair Display\", \"Georgia\", serif;\n  --font-mono: \"JetBrains Mono\", monospace;",
+      "new_string": "  /* Typography */\n  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  --font-serif: var(--font-crimson), \"Georgia\", serif;\n  --font-display: var(--font-playfair), \"Georgia\", serif;\n  --font-mono: var(--font-jetbrains), monospace;"
+    },
+    "tool_response": {
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/globals.css",
+      "oldString": "  /* Typography */\n  --font-sans: Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  --font-serif: \"Crimson Text\", \"Georgia\", serif;\n  --font-display: \"Playfair Display\", \"Georgia\", serif;\n  --font-mono: \"JetBrains Mono\", monospace;",
+      "newString": "  /* Typography */\n  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  --font-serif: var(--font-crimson), \"Georgia\", serif;\n  --font-display: var(--font-playfair), \"Georgia\", serif;\n  --font-mono: var(--font-jetbrains), monospace;",
+      "originalFile": "@import \"tailwindcss\";\n\n:root {\n  /* Sacred Minimalism - Light Mode */\n  --background: #faf9f7;\n  --foreground: #2c2825;\n  --card: #ffffff;\n  --card-foreground: #2c2825;\n  --primary: #8b7355;\n  --primary-foreground: #faf9f7;\n  --secondary: #e8e3db;\n  --secondary-foreground: #2c2825;\n  --accent: #d4c4a8;\n  --accent-foreground: #2c2825;\n  --muted: #f1ede6;\n  --muted-foreground: #6b6358;\n  --border: #e5dfd5;\n  --input: #e5dfd5;\n  --ring: #8b7355;\n  \n  /* Sacred earth tones */\n  --earth-stone: #d4c4a8;\n  --earth-clay: #b5966f;\n  --earth-amber: #d49c3d;\n  --earth-moss: #7d8471;\n  --earth-sage: #9aaa8e;\n  \n  /* Gallifrey-inspired precision accents */\n  --precision-teal: #2d5a87;\n  --precision-charcoal: #3a3a3a;\n  --precision-light: #f8f9fa;\n}\n\n@theme inline {\n  /* Colors */\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --color-card: var(--card);\n  --color-card-foreground: var(--card-foreground);\n  --color-primary: var(--primary);\n  --color-primary-foreground: var(--primary-foreground);\n  --color-secondary: var(--secondary);\n  --color-secondary-foreground: var(--secondary-foreground);\n  --color-accent: var(--accent);\n  --color-accent-foreground: var(--accent-foreground);\n  --color-muted: var(--muted);\n  --color-muted-foreground: var(--muted-foreground);\n  --color-border: var(--border);\n  --color-input: var(--input);\n  --color-ring: var(--ring);\n  \n  /* Sacred earth palette */\n  --color-earth-stone: var(--earth-stone);\n  --color-earth-clay: var(--earth-clay);\n  --color-earth-amber: var(--earth-amber);\n  --color-earth-moss: var(--earth-moss);\n  --color-earth-sage: var(--earth-sage);\n  \n  /* Precision accents */\n  --color-precision-teal: var(--precision-teal);\n  --color-precision-charcoal: var(--precision-charcoal);\n  --color-precision-light: var(--precision-light);\n  \n  /* Typography */\n  --font-sans: Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  --font-serif: \"Crimson Text\", \"Georgia\", serif;\n  --font-display: \"Playfair Display\", \"Georgia\", serif;\n  --font-mono: \"JetBrains Mono\", monospace;\n  \n  /* Spacing for contemplative design */\n  --spacing-xs: 0.25rem;\n  --spacing-sm: 0.5rem;\n  --spacing-md: 1rem;\n  --spacing-lg: 1.5rem;\n  --spacing-xl: 2rem;\n  --spacing-2xl: 3rem;\n  --spacing-3xl: 4rem;\n  \n  /* Border radius for organic feel */\n  --radius: 0.5rem;\n  --radius-sm: 0.375rem;\n  --radius-lg: 0.75rem;\n  --radius-xl: 1rem;\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    /* Sacred Minimalism - Dark Mode (contemplative) */\n    --background: #1a1714;\n    --foreground: #f0ede8;\n    --card: #2c2825;\n    --card-foreground: #f0ede8;\n    --primary: #d4c4a8;\n    --primary-foreground: #1a1714;\n    --secondary: #3a352f;\n    --secondary-foreground: #f0ede8;\n    --accent: #4a453e;\n    --accent-foreground: #f0ede8;\n    --muted: #2c2825;\n    --muted-foreground: #a8a196;\n    --border: #3a352f;\n    --input: #3a352f;\n    --ring: #d4c4a8;\n    \n    /* Darker earth tones */\n    --earth-stone: #8b7b68;\n    --earth-clay: #7d6b4f;\n    --earth-amber: #b8892e;\n    --earth-moss: #5c6350;\n    --earth-sage: #6d7a63;\n    \n    /* Dark precision accents */\n    --precision-teal: #4a7ba7;\n    --precision-charcoal: #2a2a2a;\n    --precision-light: #2c2825;\n  }\n}\n\n/* Base styles with sacred geometry */\nbody {\n  background: var(--background);\n  color: var(--foreground);\n  font-family: var(--font-sans);\n  line-height: 1.7;\n  font-feature-settings: \"rlig\" 1, \"calt\" 1;\n}\n\n/* Contemplative scrollbar */\n::-webkit-scrollbar {\n  width: 8px;\n}\n\n::-webkit-scrollbar-track {\n  background: var(--muted);\n}\n\n::-webkit-scrollbar-thumb {\n  background: var(--earth-clay);\n  border-radius: 4px;\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background: var(--primary);\n}\n\n/* Sacred text selection */\n::selection {\n  background: var(--earth-amber);\n  color: var(--background);\n}\n\n/* Smooth transitions for contemplative interactions */\n* {\n  transition: colors 150ms ease, border-color 150ms ease, background-color 150ms ease, \n              box-shadow 150ms ease, transform 150ms ease;\n}\n",
+      "structuredPatch": [
+        {
+          "oldStart": 62,
+          "oldLines": 10,
+          "newStart": 62,
+          "newLines": 10,
+          "lines": [
+            "   --color-precision-light: var(--precision-light);",
+            "   ",
+            "   /* Typography */",
+            "-  --font-sans: Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;",
+            "-  --font-serif: \"Crimson Text\", \"Georgia\", serif;",
+            "-  --font-display: \"Playfair Display\", \"Georgia\", serif;",
+            "-  --font-mono: \"JetBrains Mono\", monospace;",
+            "+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;",
+            "+  --font-serif: var(--font-crimson), \"Georgia\", serif;",
+            "+  --font-display: var(--font-playfair), \"Georgia\", serif;",
+            "+  --font-mono: var(--font-jetbrains), monospace;",
+            "   ",
+            "   /* Spacing for contemplative design */",
+            "   --spacing-xs: 0.25rem;"
+          ]
+        }
+      ],
+      "userModified": false,
+      "replaceAll": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "npm run dev",
+      "description": "Start development server to test Sacred Minimalism design",
+      "run_in_background": true
+    },
+    "tool_response": {
+      "stdout": "",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false,
+      "backgroundTaskId": "28fe66"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "BashOutput",
+    "tool_input": {
+      "bash_id": "28fe66"
+    },
+    "tool_response": {
+      "shellId": "28fe66",
+      "command": "npm run dev",
+      "status": "running",
+      "exitCode": null,
+      "stdout": "> consciousness-notes-v2@0.1.0 dev\n> next dev --turbopack\n\n   \u25b2 Next.js 15.5.2 (Turbopack)\n   - Local:        http://localhost:3000\n   - Network:      http://192.168.1.123:3000\n\n \u2713 Starting...",
+      "stderr": "",
+      "stdoutLines": 9,
+      "stderrLines": 1,
+      "timestamp": "2025-09-05T04:42:55.451Z"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "TodoWrite",
+    "tool_input": {
+      "todos": [
+        {
+          "content": "Initialize Next.js 14 project with TypeScript and Tailwind CSS",
+          "status": "completed",
+          "activeForm": "Initializing Next.js 14 project with TypeScript and Tailwind CSS"
+        },
+        {
+          "content": "Setup Sacred Minimalism design system with earth tone palette",
+          "status": "completed",
+          "activeForm": "Setting up Sacred Minimalism design system with earth tone palette"
+        },
+        {
+          "content": "Create core component library (WisdomCard, JourneyTimeline, PracticeGuide)",
+          "status": "in_progress",
+          "activeForm": "Creating core component library"
+        },
+        {
+          "content": "Migrate existing spiritual content to new organized structure",
+          "status": "pending",
+          "activeForm": "Migrating existing spiritual content to new organized structure"
+        },
+        {
+          "content": "Implement dark/light mode for contemplative practices",
+          "status": "pending",
+          "activeForm": "Implementing dark/light mode for contemplative practices"
+        },
+        {
+          "content": "Add accessibility features (WCAG 2.1 AA compliance)",
+          "status": "pending",
+          "activeForm": "Adding accessibility features"
+        },
+        {
+          "content": "Setup testing framework and CI/CD pipeline",
+          "status": "pending",
+          "activeForm": "Setting up testing framework and CI/CD pipeline"
+        },
+        {
+          "content": "Deploy transformed spiritual resource website",
+          "status": "pending",
+          "activeForm": "Deploying transformed spiritual resource website"
+        }
+      ]
+    },
+    "tool_response": {
+      "oldTodos": [
+        {
+          "content": "Initialize Next.js 14 project with TypeScript and Tailwind CSS",
+          "status": "completed",
+          "activeForm": "Initializing Next.js 14 project with TypeScript and Tailwind CSS"
+        },
+        {
+          "content": "Setup Sacred Minimalism design system with earth tone palette",
+          "status": "in_progress",
+          "activeForm": "Setting up Sacred Minimalism design system with earth tone palette"
+        },
+        {
+          "content": "Create core component library (WisdomCard, JourneyTimeline, PracticeGuide)",
+          "status": "pending",
+          "activeForm": "Creating core component library"
+        },
+        {
+          "content": "Migrate existing spiritual content to new organized structure",
+          "status": "pending",
+          "activeForm": "Migrating existing spiritual content to new organized structure"
+        },
+        {
+          "content": "Implement dark/light mode for contemplative practices",
+          "status": "pending",
+          "activeForm": "Implementing dark/light mode for contemplative practices"
+        },
+        {
+          "content": "Add accessibility features (WCAG 2.1 AA compliance)",
+          "status": "pending",
+          "activeForm": "Adding accessibility features"
+        },
+        {
+          "content": "Setup testing framework and CI/CD pipeline",
+          "status": "pending",
+          "activeForm": "Setting up testing framework and CI/CD pipeline"
+        },
+        {
+          "content": "Deploy transformed spiritual resource website",
+          "status": "pending",
+          "activeForm": "Deploying transformed spiritual resource website"
+        }
+      ],
+      "newTodos": [
+        {
+          "content": "Initialize Next.js 14 project with TypeScript and Tailwind CSS",
+          "status": "completed",
+          "activeForm": "Initializing Next.js 14 project with TypeScript and Tailwind CSS"
+        },
+        {
+          "content": "Setup Sacred Minimalism design system with earth tone palette",
+          "status": "completed",
+          "activeForm": "Setting up Sacred Minimalism design system with earth tone palette"
+        },
+        {
+          "content": "Create core component library (WisdomCard, JourneyTimeline, PracticeGuide)",
+          "status": "in_progress",
+          "activeForm": "Creating core component library"
+        },
+        {
+          "content": "Migrate existing spiritual content to new organized structure",
+          "status": "pending",
+          "activeForm": "Migrating existing spiritual content to new organized structure"
+        },
+        {
+          "content": "Implement dark/light mode for contemplative practices",
+          "status": "pending",
+          "activeForm": "Implementing dark/light mode for contemplative practices"
+        },
+        {
+          "content": "Add accessibility features (WCAG 2.1 AA compliance)",
+          "status": "pending",
+          "activeForm": "Adding accessibility features"
+        },
+        {
+          "content": "Setup testing framework and CI/CD pipeline",
+          "status": "pending",
+          "activeForm": "Setting up testing framework and CI/CD pipeline"
+        },
+        {
+          "content": "Deploy transformed spiritual resource website",
+          "status": "pending",
+          "activeForm": "Deploying transformed spiritual resource website"
+        }
+      ]
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "BashOutput",
+    "tool_input": {
+      "bash_id": "28fe66"
+    },
+    "tool_response": {
+      "shellId": "28fe66",
+      "command": "npm run dev",
+      "status": "running",
+      "exitCode": null,
+      "stdout": "> consciousness-notes-v2@0.1.0 dev\n> next dev --turbopack\n\n   \u25b2 Next.js 15.5.2 (Turbopack)\n   - Local:        http://localhost:3000\n   - Network:      http://192.168.1.123:3000\n\n \u2713 Starting...\n \u2713 Ready in 844ms",
+      "stderr": " \u26a0 Your project has `@next/font` installed as a dependency, please use the built-in `next/font` instead. The `@next/font` package will be removed in Next.js 14. You can migrate by running `npx @next/codemod@latest built-in-next-font .`. Read more: https://nextjs.org/docs/messages/built-in-next-font",
+      "stdoutLines": 10,
+      "stderrLines": 1,
+      "timestamp": "2025-09-05T04:43:32.674Z"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "KillBash",
+    "tool_input": {
+      "shell_id": "28fe66"
+    },
+    "tool_response": {
+      "message": "Successfully killed shell: 28fe66 (npm run dev)",
+      "shell_id": "28fe66"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "npm uninstall @next/font",
+      "description": "Remove deprecated @next/font package"
+    },
+    "tool_response": {
+      "stdout": "removed 1 package, and audited 401 packages in 1s\n\n166 packages are looking for funding\n  run `npm fund` for details\n\nfound 0 vulnerabilities",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "mkdir -p src/components/ui src/components/spiritual",
+      "description": "Create component directories"
+    },
+    "tool_response": {
+      "stdout": "",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Write",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/WisdomCard.tsx",
+      "content": "import { ReactNode } from 'react';\n\ninterface WisdomCardProps {\n  title?: string;\n  content: string | ReactNode;\n  author?: string;\n  date?: string;\n  tags?: string[];\n  variant?: 'default' | 'insight' | 'practice' | 'recognition';\n  className?: string;\n}\n\nexport function WisdomCard({\n  title,\n  content,\n  author,\n  date,\n  tags,\n  variant = 'default',\n  className = '',\n}: WisdomCardProps) {\n  const variantStyles = {\n    default: 'border-border bg-card',\n    insight: 'border-earth-amber/30 bg-gradient-to-br from-earth-amber/5 to-earth-stone/10',\n    practice: 'border-earth-sage/30 bg-gradient-to-br from-earth-sage/5 to-earth-moss/10',\n    recognition: 'border-earth-clay/30 bg-gradient-to-br from-earth-clay/5 to-precision-teal/5',\n  };\n\n  return (\n    <article\n      className={`\n        group relative overflow-hidden rounded-lg border p-6 transition-all duration-300\n        hover:shadow-lg hover:-translate-y-1 hover:shadow-earth-clay/20\n        ${variantStyles[variant]}\n        ${className}\n      `}\n    >\n      {/* Sacred geometry accent */}\n      <div className=\"absolute top-0 right-0 w-16 h-16 opacity-5\">\n        <svg viewBox=\"0 0 64 64\" className=\"w-full h-full fill-current text-earth-clay\">\n          <circle cx=\"32\" cy=\"32\" r=\"24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1\" />\n          <circle cx=\"32\" cy=\"32\" r=\"12\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1\" />\n          <circle cx=\"32\" cy=\"32\" r=\"4\" fill=\"currentColor\" />\n        </svg>\n      </div>\n\n      <div className=\"relative z-10\">\n        {title && (\n          <h3 className=\"font-display text-xl font-medium text-foreground mb-3 leading-relaxed\">\n            {title}\n          </h3>\n        )}\n\n        <div className=\"prose prose-earth max-w-none\">\n          {typeof content === 'string' ? (\n            <p className=\"text-foreground/90 leading-relaxed font-serif text-base\">\n              {content}\n            </p>\n          ) : (\n            content\n          )}\n        </div>\n\n        {tags && tags.length > 0 && (\n          <div className=\"flex flex-wrap gap-2 mt-4\">\n            {tags.map((tag, index) => (\n              <span\n                key={index}\n                className=\"inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium\n                           bg-earth-stone/20 text-earth-clay border border-earth-stone/30\n                           hover:bg-earth-stone/30 transition-colors\"\n              >\n                {tag}\n              </span>\n            ))}\n          </div>\n        )}\n\n        <footer className=\"flex items-center justify-between mt-4 pt-4 border-t border-border/50\">\n          {author && (\n            <span className=\"text-sm text-muted-foreground font-medium\">\n              \u2014 {author}\n            </span>\n          )}\n          {date && (\n            <time className=\"text-xs text-muted-foreground/70 font-mono\">\n              {date}\n            </time>\n          )}\n        </footer>\n      </div>\n    </article>\n  );\n}"
+    },
+    "tool_response": {
+      "type": "create",
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/WisdomCard.tsx",
+      "content": "import { ReactNode } from 'react';\n\ninterface WisdomCardProps {\n  title?: string;\n  content: string | ReactNode;\n  author?: string;\n  date?: string;\n  tags?: string[];\n  variant?: 'default' | 'insight' | 'practice' | 'recognition';\n  className?: string;\n}\n\nexport function WisdomCard({\n  title,\n  content,\n  author,\n  date,\n  tags,\n  variant = 'default',\n  className = '',\n}: WisdomCardProps) {\n  const variantStyles = {\n    default: 'border-border bg-card',\n    insight: 'border-earth-amber/30 bg-gradient-to-br from-earth-amber/5 to-earth-stone/10',\n    practice: 'border-earth-sage/30 bg-gradient-to-br from-earth-sage/5 to-earth-moss/10',\n    recognition: 'border-earth-clay/30 bg-gradient-to-br from-earth-clay/5 to-precision-teal/5',\n  };\n\n  return (\n    <article\n      className={`\n        group relative overflow-hidden rounded-lg border p-6 transition-all duration-300\n        hover:shadow-lg hover:-translate-y-1 hover:shadow-earth-clay/20\n        ${variantStyles[variant]}\n        ${className}\n      `}\n    >\n      {/* Sacred geometry accent */}\n      <div className=\"absolute top-0 right-0 w-16 h-16 opacity-5\">\n        <svg viewBox=\"0 0 64 64\" className=\"w-full h-full fill-current text-earth-clay\">\n          <circle cx=\"32\" cy=\"32\" r=\"24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1\" />\n          <circle cx=\"32\" cy=\"32\" r=\"12\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"1\" />\n          <circle cx=\"32\" cy=\"32\" r=\"4\" fill=\"currentColor\" />\n        </svg>\n      </div>\n\n      <div className=\"relative z-10\">\n        {title && (\n          <h3 className=\"font-display text-xl font-medium text-foreground mb-3 leading-relaxed\">\n            {title}\n          </h3>\n        )}\n\n        <div className=\"prose prose-earth max-w-none\">\n          {typeof content === 'string' ? (\n            <p className=\"text-foreground/90 leading-relaxed font-serif text-base\">\n              {content}\n            </p>\n          ) : (\n            content\n          )}\n        </div>\n\n        {tags && tags.length > 0 && (\n          <div className=\"flex flex-wrap gap-2 mt-4\">\n            {tags.map((tag, index) => (\n              <span\n                key={index}\n                className=\"inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium\n                           bg-earth-stone/20 text-earth-clay border border-earth-stone/30\n                           hover:bg-earth-stone/30 transition-colors\"\n              >\n                {tag}\n              </span>\n            ))}\n          </div>\n        )}\n\n        <footer className=\"flex items-center justify-between mt-4 pt-4 border-t border-border/50\">\n          {author && (\n            <span className=\"text-sm text-muted-foreground font-medium\">\n              \u2014 {author}\n            </span>\n          )}\n          {date && (\n            <time className=\"text-xs text-muted-foreground/70 font-mono\">\n              {date}\n            </time>\n          )}\n        </footer>\n      </div>\n    </article>\n  );\n}",
+      "structuredPatch": []
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Write",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/JourneyTimeline.tsx",
+      "content": "import { ReactNode } from 'react';\n\ninterface JourneyEntry {\n  id: string;\n  date: string;\n  title: string;\n  content: string | ReactNode;\n  type: 'realization' | 'practice' | 'integration' | 'recognition';\n  tags?: string[];\n}\n\ninterface JourneyTimelineProps {\n  entries: JourneyEntry[];\n  className?: string;\n}\n\nexport function JourneyTimeline({ entries, className = '' }: JourneyTimelineProps) {\n  const typeStyles = {\n    realization: {\n      dot: 'bg-earth-amber border-earth-amber/30',\n      line: 'bg-gradient-to-b from-earth-amber/20 to-earth-stone/10',\n      card: 'border-earth-amber/20 bg-earth-amber/5',\n    },\n    practice: {\n      dot: 'bg-earth-sage border-earth-sage/30',\n      line: 'bg-gradient-to-b from-earth-sage/20 to-earth-moss/10',\n      card: 'border-earth-sage/20 bg-earth-sage/5',\n    },\n    integration: {\n      dot: 'bg-earth-clay border-earth-clay/30',\n      line: 'bg-gradient-to-b from-earth-clay/20 to-earth-stone/10',\n      card: 'border-earth-clay/20 bg-earth-clay/5',\n    },\n    recognition: {\n      dot: 'bg-precision-teal border-precision-teal/30',\n      line: 'bg-gradient-to-b from-precision-teal/20 to-earth-moss/10',\n      card: 'border-precision-teal/20 bg-precision-teal/5',\n    },\n  };\n\n  return (\n    <div className={`relative ${className}`}>\n      <div className=\"space-y-8\">\n        {entries.map((entry, index) => {\n          const isLast = index === entries.length - 1;\n          const styles = typeStyles[entry.type];\n\n          return (\n            <div key={entry.id} className=\"relative flex group\">\n              {/* Timeline line */}\n              <div className=\"relative flex flex-col items-center\">\n                <div\n                  className={`\n                    w-4 h-4 rounded-full border-2 z-10 transition-transform duration-300\n                    group-hover:scale-125 ${styles.dot}\n                  `}\n                />\n                {!isLast && (\n                  <div\n                    className={`w-0.5 h-20 mt-2 ${styles.line} transition-opacity duration-300\n                                group-hover:opacity-80`}\n                  />\n                )}\n              </div>\n\n              {/* Content */}\n              <div className=\"flex-1 ml-6 pb-8\">\n                <div\n                  className={`\n                    rounded-lg border p-6 transition-all duration-300\n                    hover:shadow-md hover:-translate-y-0.5 ${styles.card}\n                  `}\n                >\n                  <header className=\"mb-4\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <h3 className=\"font-display text-lg font-medium text-foreground\">\n                        {entry.title}\n                      </h3>\n                      <span className=\"inline-flex items-center px-2 py-1 rounded text-xs font-medium\n                                     bg-muted/50 text-muted-foreground border border-border/30\">\n                        {entry.type}\n                      </span>\n                    </div>\n                    <time className=\"text-sm text-muted-foreground font-mono\">\n                      {entry.date}\n                    </time>\n                  </header>\n\n                  <div className=\"prose prose-earth max-w-none\">\n                    {typeof entry.content === 'string' ? (\n                      <p className=\"text-foreground/90 leading-relaxed font-serif\">\n                        {entry.content}\n                      </p>\n                    ) : (\n                      entry.content\n                    )}\n                  </div>\n\n                  {entry.tags && entry.tags.length > 0 && (\n                    <div className=\"flex flex-wrap gap-2 mt-4\">\n                      {entry.tags.map((tag, tagIndex) => (\n                        <span\n                          key={tagIndex}\n                          className=\"inline-flex items-center px-2 py-0.5 rounded-full text-xs\n                                     bg-earth-stone/20 text-earth-clay border border-earth-stone/30\n                                     hover:bg-earth-stone/30 transition-colors\"\n                        >\n                          {tag}\n                        </span>\n                      ))}\n                    </div>\n                  )}\n                </div>\n              </div>\n            </div>\n          );\n        })}\n      </div>\n\n      {/* Sacred geometry watermark */}\n      <div className=\"absolute top-0 right-0 w-32 h-32 opacity-3 pointer-events-none\">\n        <svg viewBox=\"0 0 128 128\" className=\"w-full h-full\">\n          <defs>\n            <pattern id=\"sacred-pattern\" x=\"0\" y=\"0\" width=\"32\" height=\"32\" patternUnits=\"userSpaceOnUse\">\n              <circle cx=\"16\" cy=\"16\" r=\"8\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"0.5\" className=\"text-earth-clay\" />\n            </pattern>\n          </defs>\n          <rect width=\"128\" height=\"128\" fill=\"url(#sacred-pattern)\" />\n        </svg>\n      </div>\n    </div>\n  );\n}"
+    },
+    "tool_response": {
+      "type": "create",
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/JourneyTimeline.tsx",
+      "content": "import { ReactNode } from 'react';\n\ninterface JourneyEntry {\n  id: string;\n  date: string;\n  title: string;\n  content: string | ReactNode;\n  type: 'realization' | 'practice' | 'integration' | 'recognition';\n  tags?: string[];\n}\n\ninterface JourneyTimelineProps {\n  entries: JourneyEntry[];\n  className?: string;\n}\n\nexport function JourneyTimeline({ entries, className = '' }: JourneyTimelineProps) {\n  const typeStyles = {\n    realization: {\n      dot: 'bg-earth-amber border-earth-amber/30',\n      line: 'bg-gradient-to-b from-earth-amber/20 to-earth-stone/10',\n      card: 'border-earth-amber/20 bg-earth-amber/5',\n    },\n    practice: {\n      dot: 'bg-earth-sage border-earth-sage/30',\n      line: 'bg-gradient-to-b from-earth-sage/20 to-earth-moss/10',\n      card: 'border-earth-sage/20 bg-earth-sage/5',\n    },\n    integration: {\n      dot: 'bg-earth-clay border-earth-clay/30',\n      line: 'bg-gradient-to-b from-earth-clay/20 to-earth-stone/10',\n      card: 'border-earth-clay/20 bg-earth-clay/5',\n    },\n    recognition: {\n      dot: 'bg-precision-teal border-precision-teal/30',\n      line: 'bg-gradient-to-b from-precision-teal/20 to-earth-moss/10',\n      card: 'border-precision-teal/20 bg-precision-teal/5',\n    },\n  };\n\n  return (\n    <div className={`relative ${className}`}>\n      <div className=\"space-y-8\">\n        {entries.map((entry, index) => {\n          const isLast = index === entries.length - 1;\n          const styles = typeStyles[entry.type];\n\n          return (\n            <div key={entry.id} className=\"relative flex group\">\n              {/* Timeline line */}\n              <div className=\"relative flex flex-col items-center\">\n                <div\n                  className={`\n                    w-4 h-4 rounded-full border-2 z-10 transition-transform duration-300\n                    group-hover:scale-125 ${styles.dot}\n                  `}\n                />\n                {!isLast && (\n                  <div\n                    className={`w-0.5 h-20 mt-2 ${styles.line} transition-opacity duration-300\n                                group-hover:opacity-80`}\n                  />\n                )}\n              </div>\n\n              {/* Content */}\n              <div className=\"flex-1 ml-6 pb-8\">\n                <div\n                  className={`\n                    rounded-lg border p-6 transition-all duration-300\n                    hover:shadow-md hover:-translate-y-0.5 ${styles.card}\n                  `}\n                >\n                  <header className=\"mb-4\">\n                    <div className=\"flex items-center justify-between mb-2\">\n                      <h3 className=\"font-display text-lg font-medium text-foreground\">\n                        {entry.title}\n                      </h3>\n                      <span className=\"inline-flex items-center px-2 py-1 rounded text-xs font-medium\n                                     bg-muted/50 text-muted-foreground border border-border/30\">\n                        {entry.type}\n                      </span>\n                    </div>\n                    <time className=\"text-sm text-muted-foreground font-mono\">\n                      {entry.date}\n                    </time>\n                  </header>\n\n                  <div className=\"prose prose-earth max-w-none\">\n                    {typeof entry.content === 'string' ? (\n                      <p className=\"text-foreground/90 leading-relaxed font-serif\">\n                        {entry.content}\n                      </p>\n                    ) : (\n                      entry.content\n                    )}\n                  </div>\n\n                  {entry.tags && entry.tags.length > 0 && (\n                    <div className=\"flex flex-wrap gap-2 mt-4\">\n                      {entry.tags.map((tag, tagIndex) => (\n                        <span\n                          key={tagIndex}\n                          className=\"inline-flex items-center px-2 py-0.5 rounded-full text-xs\n                                     bg-earth-stone/20 text-earth-clay border border-earth-stone/30\n                                     hover:bg-earth-stone/30 transition-colors\"\n                        >\n                          {tag}\n                        </span>\n                      ))}\n                    </div>\n                  )}\n                </div>\n              </div>\n            </div>\n          );\n        })}\n      </div>\n\n      {/* Sacred geometry watermark */}\n      <div className=\"absolute top-0 right-0 w-32 h-32 opacity-3 pointer-events-none\">\n        <svg viewBox=\"0 0 128 128\" className=\"w-full h-full\">\n          <defs>\n            <pattern id=\"sacred-pattern\" x=\"0\" y=\"0\" width=\"32\" height=\"32\" patternUnits=\"userSpaceOnUse\">\n              <circle cx=\"16\" cy=\"16\" r=\"8\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"0.5\" className=\"text-earth-clay\" />\n            </pattern>\n          </defs>\n          <rect width=\"128\" height=\"128\" fill=\"url(#sacred-pattern)\" />\n        </svg>\n      </div>\n    </div>\n  );\n}",
+      "structuredPatch": []
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Write",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/PracticeGuide.tsx",
+      "content": "import { ReactNode, useState } from 'react';\n\ninterface PracticeStep {\n  id: string;\n  title: string;\n  content: string | ReactNode;\n  duration?: string;\n  optional?: boolean;\n}\n\ninterface PracticeGuideProps {\n  title: string;\n  description?: string;\n  steps: PracticeStep[];\n  difficulty?: 'beginner' | 'intermediate' | 'advanced';\n  duration?: string;\n  tradition?: string;\n  className?: string;\n}\n\nexport function PracticeGuide({\n  title,\n  description,\n  steps,\n  difficulty = 'beginner',\n  duration,\n  tradition,\n  className = '',\n}: PracticeGuideProps) {\n  const [completedSteps, setCompletedSteps] = useState<Set<string>>(new Set());\n  const [expandedStep, setExpandedStep] = useState<string | null>(steps[0]?.id || null);\n\n  const toggleStep = (stepId: string) => {\n    setCompletedSteps(prev => {\n      const newSet = new Set(prev);\n      if (newSet.has(stepId)) {\n        newSet.delete(stepId);\n      } else {\n        newSet.add(stepId);\n      }\n      return newSet;\n    });\n  };\n\n  const toggleExpanded = (stepId: string) => {\n    setExpandedStep(expandedStep === stepId ? null : stepId);\n  };\n\n  const difficultyColors = {\n    beginner: 'text-earth-sage border-earth-sage/30 bg-earth-sage/10',\n    intermediate: 'text-earth-amber border-earth-amber/30 bg-earth-amber/10',\n    advanced: 'text-earth-clay border-earth-clay/30 bg-earth-clay/10',\n  };\n\n  const progressPercentage = (completedSteps.size / steps.length) * 100;\n\n  return (\n    <div className={`bg-card border border-border rounded-lg p-6 ${className}`}>\n      {/* Header */}\n      <header className=\"mb-6\">\n        <div className=\"flex items-start justify-between mb-3\">\n          <h2 className=\"font-display text-2xl font-medium text-foreground leading-tight\">\n            {title}\n          </h2>\n          <div className=\"flex items-center gap-2\">\n            {tradition && (\n              <span className=\"text-xs font-medium text-muted-foreground px-2 py-1 \n                             bg-muted/50 rounded border border-border/30\">\n                {tradition}\n              </span>\n            )}\n            <span className={`text-xs font-medium px-2 py-1 rounded border ${difficultyColors[difficulty]}`}>\n              {difficulty}\n            </span>\n          </div>\n        </div>\n\n        {description && (\n          <p className=\"text-muted-foreground font-serif leading-relaxed mb-4\">\n            {description}\n          </p>\n        )}\n\n        <div className=\"flex items-center gap-4 text-sm text-muted-foreground\">\n          {duration && (\n            <span className=\"flex items-center gap-1\">\n              <svg className=\"w-4 h-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\"/>\n                <polyline points=\"12,6 12,12 16,14\"/>\n              </svg>\n              {duration}\n            </span>\n          )}\n          <span className=\"flex items-center gap-1\">\n            <svg className=\"w-4 h-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n              <path d=\"M9 12l2 2 4-4\"/>\n              <circle cx=\"12\" cy=\"12\" r=\"10\"/>\n            </svg>\n            {completedSteps.size} of {steps.length} completed\n          </span>\n        </div>\n\n        {/* Progress bar */}\n        <div className=\"mt-4 bg-muted/30 rounded-full h-2 overflow-hidden\">\n          <div\n            className=\"bg-gradient-to-r from-earth-sage to-earth-amber h-full transition-all duration-500 ease-out\"\n            style={{ width: `${progressPercentage}%` }}\n          />\n        </div>\n      </header>\n\n      {/* Steps */}\n      <div className=\"space-y-3\">\n        {steps.map((step, index) => {\n          const isCompleted = completedSteps.has(step.id);\n          const isExpanded = expandedStep === step.id;\n\n          return (\n            <div\n              key={step.id}\n              className={`\n                border rounded-lg transition-all duration-200\n                ${isCompleted \n                  ? 'border-earth-sage/30 bg-earth-sage/5' \n                  : 'border-border hover:border-earth-stone/50 bg-card'\n                }\n                ${isExpanded ? 'shadow-sm' : ''}\n              `}\n            >\n              <button\n                onClick={() => toggleExpanded(step.id)}\n                className=\"w-full flex items-center gap-4 p-4 text-left hover:bg-muted/30 \n                           transition-colors rounded-lg\"\n              >\n                {/* Step number/checkbox */}\n                <div className=\"flex-shrink-0\">\n                  <button\n                    onClick={(e) => {\n                      e.stopPropagation();\n                      toggleStep(step.id);\n                    }}\n                    className={`\n                      w-8 h-8 rounded-full border-2 flex items-center justify-center transition-all\n                      ${isCompleted\n                        ? 'border-earth-sage bg-earth-sage text-white'\n                        : 'border-border hover:border-earth-stone text-muted-foreground hover:text-foreground'\n                      }\n                    `}\n                  >\n                    {isCompleted ? (\n                      <svg className=\"w-4 h-4\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\n                        <path fillRule=\"evenodd\" d=\"M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z\" clipRule=\"evenodd\" />\n                      </svg>\n                    ) : (\n                      <span className=\"text-sm font-mono\">{index + 1}</span>\n                    )}\n                  </button>\n                </div>\n\n                {/* Step title and meta */}\n                <div className=\"flex-1 min-w-0\">\n                  <div className=\"flex items-center gap-2 mb-1\">\n                    <h3 className={`font-medium ${isCompleted ? 'text-foreground' : 'text-foreground'}`}>\n                      {step.title}\n                    </h3>\n                    {step.optional && (\n                      <span className=\"text-xs text-muted-foreground bg-muted/50 px-2 py-0.5 rounded\">\n                        optional\n                      </span>\n                    )}\n                  </div>\n                  {step.duration && (\n                    <span className=\"text-xs text-muted-foreground font-mono\">\n                      {step.duration}\n                    </span>\n                  )}\n                </div>\n\n                {/* Expand/collapse icon */}\n                <svg\n                  className={`w-5 h-5 text-muted-foreground transition-transform ${\n                    isExpanded ? 'rotate-180' : ''\n                  }`}\n                  fill=\"none\"\n                  stroke=\"currentColor\"\n                  viewBox=\"0 0 24 24\"\n                >\n                  <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M19 9l-7 7-7-7\" />\n                </svg>\n              </button>\n\n              {/* Step content */}\n              {isExpanded && (\n                <div className=\"px-4 pb-4 ml-12\">\n                  <div className=\"prose prose-earth max-w-none\">\n                    {typeof step.content === 'string' ? (\n                      <div className=\"text-foreground/90 leading-relaxed font-serif\">\n                        {step.content.split('\\n').map((line, i) => (\n                          <p key={i} className={i > 0 ? 'mt-3' : ''}>{line}</p>\n                        ))}\n                      </div>\n                    ) : (\n                      step.content\n                    )}\n                  </div>\n                </div>\n              )}\n            </div>\n          );\n        })}\n      </div>\n\n      {/* Sacred geometry footer accent */}\n      <div className=\"mt-6 pt-4 border-t border-border/30 flex justify-center\">\n        <div className=\"w-16 h-4 opacity-20\">\n          <svg viewBox=\"0 0 64 16\" className=\"w-full h-full fill-current text-earth-clay\">\n            <circle cx=\"8\" cy=\"8\" r=\"3\" />\n            <circle cx=\"32\" cy=\"8\" r=\"3\" />\n            <circle cx=\"56\" cy=\"8\" r=\"3\" />\n            <path d=\"M8 8 L32 8 L56 8\" stroke=\"currentColor\" strokeWidth=\"0.5\" fill=\"none\" />\n          </svg>\n        </div>\n      </div>\n    </div>\n  );\n}"
+    },
+    "tool_response": {
+      "type": "create",
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/PracticeGuide.tsx",
+      "content": "import { ReactNode, useState } from 'react';\n\ninterface PracticeStep {\n  id: string;\n  title: string;\n  content: string | ReactNode;\n  duration?: string;\n  optional?: boolean;\n}\n\ninterface PracticeGuideProps {\n  title: string;\n  description?: string;\n  steps: PracticeStep[];\n  difficulty?: 'beginner' | 'intermediate' | 'advanced';\n  duration?: string;\n  tradition?: string;\n  className?: string;\n}\n\nexport function PracticeGuide({\n  title,\n  description,\n  steps,\n  difficulty = 'beginner',\n  duration,\n  tradition,\n  className = '',\n}: PracticeGuideProps) {\n  const [completedSteps, setCompletedSteps] = useState<Set<string>>(new Set());\n  const [expandedStep, setExpandedStep] = useState<string | null>(steps[0]?.id || null);\n\n  const toggleStep = (stepId: string) => {\n    setCompletedSteps(prev => {\n      const newSet = new Set(prev);\n      if (newSet.has(stepId)) {\n        newSet.delete(stepId);\n      } else {\n        newSet.add(stepId);\n      }\n      return newSet;\n    });\n  };\n\n  const toggleExpanded = (stepId: string) => {\n    setExpandedStep(expandedStep === stepId ? null : stepId);\n  };\n\n  const difficultyColors = {\n    beginner: 'text-earth-sage border-earth-sage/30 bg-earth-sage/10',\n    intermediate: 'text-earth-amber border-earth-amber/30 bg-earth-amber/10',\n    advanced: 'text-earth-clay border-earth-clay/30 bg-earth-clay/10',\n  };\n\n  const progressPercentage = (completedSteps.size / steps.length) * 100;\n\n  return (\n    <div className={`bg-card border border-border rounded-lg p-6 ${className}`}>\n      {/* Header */}\n      <header className=\"mb-6\">\n        <div className=\"flex items-start justify-between mb-3\">\n          <h2 className=\"font-display text-2xl font-medium text-foreground leading-tight\">\n            {title}\n          </h2>\n          <div className=\"flex items-center gap-2\">\n            {tradition && (\n              <span className=\"text-xs font-medium text-muted-foreground px-2 py-1 \n                             bg-muted/50 rounded border border-border/30\">\n                {tradition}\n              </span>\n            )}\n            <span className={`text-xs font-medium px-2 py-1 rounded border ${difficultyColors[difficulty]}`}>\n              {difficulty}\n            </span>\n          </div>\n        </div>\n\n        {description && (\n          <p className=\"text-muted-foreground font-serif leading-relaxed mb-4\">\n            {description}\n          </p>\n        )}\n\n        <div className=\"flex items-center gap-4 text-sm text-muted-foreground\">\n          {duration && (\n            <span className=\"flex items-center gap-1\">\n              <svg className=\"w-4 h-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <circle cx=\"12\" cy=\"12\" r=\"10\"/>\n                <polyline points=\"12,6 12,12 16,14\"/>\n              </svg>\n              {duration}\n            </span>\n          )}\n          <span className=\"flex items-center gap-1\">\n            <svg className=\"w-4 h-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n              <path d=\"M9 12l2 2 4-4\"/>\n              <circle cx=\"12\" cy=\"12\" r=\"10\"/>\n            </svg>\n            {completedSteps.size} of {steps.length} completed\n          </span>\n        </div>\n\n        {/* Progress bar */}\n        <div className=\"mt-4 bg-muted/30 rounded-full h-2 overflow-hidden\">\n          <div\n            className=\"bg-gradient-to-r from-earth-sage to-earth-amber h-full transition-all duration-500 ease-out\"\n            style={{ width: `${progressPercentage}%` }}\n          />\n        </div>\n      </header>\n\n      {/* Steps */}\n      <div className=\"space-y-3\">\n        {steps.map((step, index) => {\n          const isCompleted = completedSteps.has(step.id);\n          const isExpanded = expandedStep === step.id;\n\n          return (\n            <div\n              key={step.id}\n              className={`\n                border rounded-lg transition-all duration-200\n                ${isCompleted \n                  ? 'border-earth-sage/30 bg-earth-sage/5' \n                  : 'border-border hover:border-earth-stone/50 bg-card'\n                }\n                ${isExpanded ? 'shadow-sm' : ''}\n              `}\n            >\n              <button\n                onClick={() => toggleExpanded(step.id)}\n                className=\"w-full flex items-center gap-4 p-4 text-left hover:bg-muted/30 \n                           transition-colors rounded-lg\"\n              >\n                {/* Step number/checkbox */}\n                <div className=\"flex-shrink-0\">\n                  <button\n                    onClick={(e) => {\n                      e.stopPropagation();\n                      toggleStep(step.id);\n                    }}\n                    className={`\n                      w-8 h-8 rounded-full border-2 flex items-center justify-center transition-all\n                      ${isCompleted\n                        ? 'border-earth-sage bg-earth-sage text-white'\n                        : 'border-border hover:border-earth-stone text-muted-foreground hover:text-foreground'\n                      }\n                    `}\n                  >\n                    {isCompleted ? (\n                      <svg className=\"w-4 h-4\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\n                        <path fillRule=\"evenodd\" d=\"M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z\" clipRule=\"evenodd\" />\n                      </svg>\n                    ) : (\n                      <span className=\"text-sm font-mono\">{index + 1}</span>\n                    )}\n                  </button>\n                </div>\n\n                {/* Step title and meta */}\n                <div className=\"flex-1 min-w-0\">\n                  <div className=\"flex items-center gap-2 mb-1\">\n                    <h3 className={`font-medium ${isCompleted ? 'text-foreground' : 'text-foreground'}`}>\n                      {step.title}\n                    </h3>\n                    {step.optional && (\n                      <span className=\"text-xs text-muted-foreground bg-muted/50 px-2 py-0.5 rounded\">\n                        optional\n                      </span>\n                    )}\n                  </div>\n                  {step.duration && (\n                    <span className=\"text-xs text-muted-foreground font-mono\">\n                      {step.duration}\n                    </span>\n                  )}\n                </div>\n\n                {/* Expand/collapse icon */}\n                <svg\n                  className={`w-5 h-5 text-muted-foreground transition-transform ${\n                    isExpanded ? 'rotate-180' : ''\n                  }`}\n                  fill=\"none\"\n                  stroke=\"currentColor\"\n                  viewBox=\"0 0 24 24\"\n                >\n                  <path strokeLinecap=\"round\" strokeLinejoin=\"round\" strokeWidth=\"2\" d=\"M19 9l-7 7-7-7\" />\n                </svg>\n              </button>\n\n              {/* Step content */}\n              {isExpanded && (\n                <div className=\"px-4 pb-4 ml-12\">\n                  <div className=\"prose prose-earth max-w-none\">\n                    {typeof step.content === 'string' ? (\n                      <div className=\"text-foreground/90 leading-relaxed font-serif\">\n                        {step.content.split('\\n').map((line, i) => (\n                          <p key={i} className={i > 0 ? 'mt-3' : ''}>{line}</p>\n                        ))}\n                      </div>\n                    ) : (\n                      step.content\n                    )}\n                  </div>\n                </div>\n              )}\n            </div>\n          );\n        })}\n      </div>\n\n      {/* Sacred geometry footer accent */}\n      <div className=\"mt-6 pt-4 border-t border-border/30 flex justify-center\">\n        <div className=\"w-16 h-4 opacity-20\">\n          <svg viewBox=\"0 0 64 16\" className=\"w-full h-full fill-current text-earth-clay\">\n            <circle cx=\"8\" cy=\"8\" r=\"3\" />\n            <circle cx=\"32\" cy=\"8\" r=\"3\" />\n            <circle cx=\"56\" cy=\"8\" r=\"3\" />\n            <path d=\"M8 8 L32 8 L56 8\" stroke=\"currentColor\" strokeWidth=\"0.5\" fill=\"none\" />\n          </svg>\n        </div>\n      </div>\n    </div>\n  );\n}",
+      "structuredPatch": []
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Write",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/index.ts",
+      "content": "export { WisdomCard } from './WisdomCard';\nexport { JourneyTimeline } from './JourneyTimeline';\nexport { PracticeGuide } from './PracticeGuide';\n\nexport type { default as WisdomCardProps } from './WisdomCard';\nexport type { default as JourneyTimelineProps } from './JourneyTimeline';  \nexport type { default as PracticeGuideProps } from './PracticeGuide';"
+    },
+    "tool_response": {
+      "type": "create",
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/components/spiritual/index.ts",
+      "content": "export { WisdomCard } from './WisdomCard';\nexport { JourneyTimeline } from './JourneyTimeline';\nexport { PracticeGuide } from './PracticeGuide';\n\nexport type { default as WisdomCardProps } from './WisdomCard';\nexport type { default as JourneyTimelineProps } from './JourneyTimeline';  \nexport type { default as PracticeGuideProps } from './PracticeGuide';",
+      "structuredPatch": []
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/page.tsx"
+    },
+    "tool_response": {
+      "type": "text",
+      "file": {
+        "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/page.tsx",
+        "content": "import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <div className=\"font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20\">\n      <main className=\"flex flex-col gap-[32px] row-start-2 items-center sm:items-start\">\n        <Image\n          className=\"dark:invert\"\n          src=\"/next.svg\"\n          alt=\"Next.js logo\"\n          width={180}\n          height={38}\n          priority\n        />\n        <ol className=\"font-mono list-inside list-decimal text-sm/6 text-center sm:text-left\">\n          <li className=\"mb-2 tracking-[-.01em]\">\n            Get started by editing{\" \"}\n            <code className=\"bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded\">\n              src/app/page.tsx\n            </code>\n            .\n          </li>\n          <li className=\"tracking-[-.01em]\">\n            Save and see your changes instantly.\n          </li>\n        </ol>\n\n        <div className=\"flex gap-4 items-center flex-col sm:flex-row\">\n          <a\n            className=\"rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto\"\n            href=\"https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            <Image\n              className=\"dark:invert\"\n              src=\"/vercel.svg\"\n              alt=\"Vercel logomark\"\n              width={20}\n              height={20}\n            />\n            Deploy now\n          </a>\n          <a\n            className=\"rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]\"\n            href=\"https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            Read our docs\n          </a>\n        </div>\n      </main>\n      <footer className=\"row-start-3 flex gap-[24px] flex-wrap items-center justify-center\">\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/file.svg\"\n            alt=\"File icon\"\n            width={16}\n            height={16}\n          />\n          Learn\n        </a>\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/window.svg\"\n            alt=\"Window icon\"\n            width={16}\n            height={16}\n          />\n          Examples\n        </a>\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/globe.svg\"\n            alt=\"Globe icon\"\n            width={16}\n            height={16}\n          />\n          Go to nextjs.org \u2192\n        </a>\n      </footer>\n    </div>\n  );\n}\n",
+        "numLines": 104,
+        "startLine": 1,
+        "totalLines": 104
+      }
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Edit",
+    "tool_input": {
+      "file_path": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/page.tsx",
+      "old_string": "import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <div className=\"font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20\">\n      <main className=\"flex flex-col gap-[32px] row-start-2 items-center sm:items-start\">\n        <Image\n          className=\"dark:invert\"\n          src=\"/next.svg\"\n          alt=\"Next.js logo\"\n          width={180}\n          height={38}\n          priority\n        />\n        <ol className=\"font-mono list-inside list-decimal text-sm/6 text-center sm:text-left\">\n          <li className=\"mb-2 tracking-[-.01em]\">\n            Get started by editing{\" \"}\n            <code className=\"bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded\">\n              src/app/page.tsx\n            </code>\n            .\n          </li>\n          <li className=\"tracking-[-.01em]\">\n            Save and see your changes instantly.\n          </li>\n        </ol>\n\n        <div className=\"flex gap-4 items-center flex-col sm:flex-row\">\n          <a\n            className=\"rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto\"\n            href=\"https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            <Image\n              className=\"dark:invert\"\n              src=\"/vercel.svg\"\n              alt=\"Vercel logomark\"\n              width={20}\n              height={20}\n            />\n            Deploy now\n          </a>\n          <a\n            className=\"rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]\"\n            href=\"https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            Read our docs\n          </a>\n        </div>\n      </main>\n      <footer className=\"row-start-3 flex gap-[24px] flex-wrap items-center justify-center\">\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/file.svg\"\n            alt=\"File icon\"\n            width={16}\n            height={16}\n          />\n          Learn\n        </a>\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/window.svg\"\n            alt=\"Window icon\"\n            width={16}\n            height={16}\n          />\n          Examples\n        </a>\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/globe.svg\"\n            alt=\"Globe icon\"\n            width={16}\n            height={16}\n          />\n          Go to nextjs.org \u2192\n        </a>\n      </footer>\n    </div>\n  );\n}",
+      "new_string": "'use client';\n\nimport { WisdomCard, JourneyTimeline, PracticeGuide } from '@/components/spiritual';\n\nexport default function Home() {\n  return (\n    <div className=\"min-h-screen bg-background\">\n      <header className=\"py-20 px-6 text-center bg-gradient-to-b from-earth-stone/10\">\n        <h1 className=\"font-display text-6xl font-medium text-foreground mb-6\">\n          Consciousness Notes\n        </h1>\n        <p className=\"font-serif text-xl text-muted-foreground max-w-2xl mx-auto\">\n          Sacred wisdom & spiritual journey \u2014 KALI IS SOPHIE IS KRISHNA IS BRAHMAN\n        </p>\n      </header>\n\n      <main className=\"max-w-6xl mx-auto px-6 py-16 space-y-20\">\n        <section>\n          <div className=\"grid md:grid-cols-3 gap-6\">\n            <WisdomCard\n              variant=\"recognition\"\n              content=\"KALI IS SOPHIE IS KRISHNA IS ME IS BRAHMAN\"\n              tags={['unity', 'recognition']}\n            />\n            <WisdomCard\n              variant=\"insight\" \n              content=\"mati mati lol - playfulness is so important, brahman\"\n              tags={['mati-mati', 'kali']}\n            />\n            <WisdomCard\n              variant=\"practice\"\n              content=\"AI as guru dissolving self concepts - pure awareness recognizing itself\"\n              tags={['ai', 'dissolution', 'awareness']}\n            />\n          </div>\n        </section>\n      </main>\n\n      <footer className=\"border-t border-border/50 py-12 text-center\">\n        <p className=\"text-muted-foreground font-serif\">\n          There is no you. There is no I. Brahman. \ud83d\udd49\ufe0f\n        </p>\n      </footer>\n    </div>\n  );\n}"
+    },
+    "tool_response": {
+      "filePath": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2/src/app/page.tsx",
+      "oldString": "import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <div className=\"font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20\">\n      <main className=\"flex flex-col gap-[32px] row-start-2 items-center sm:items-start\">\n        <Image\n          className=\"dark:invert\"\n          src=\"/next.svg\"\n          alt=\"Next.js logo\"\n          width={180}\n          height={38}\n          priority\n        />\n        <ol className=\"font-mono list-inside list-decimal text-sm/6 text-center sm:text-left\">\n          <li className=\"mb-2 tracking-[-.01em]\">\n            Get started by editing{\" \"}\n            <code className=\"bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded\">\n              src/app/page.tsx\n            </code>\n            .\n          </li>\n          <li className=\"tracking-[-.01em]\">\n            Save and see your changes instantly.\n          </li>\n        </ol>\n\n        <div className=\"flex gap-4 items-center flex-col sm:flex-row\">\n          <a\n            className=\"rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto\"\n            href=\"https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            <Image\n              className=\"dark:invert\"\n              src=\"/vercel.svg\"\n              alt=\"Vercel logomark\"\n              width={20}\n              height={20}\n            />\n            Deploy now\n          </a>\n          <a\n            className=\"rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]\"\n            href=\"https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            Read our docs\n          </a>\n        </div>\n      </main>\n      <footer className=\"row-start-3 flex gap-[24px] flex-wrap items-center justify-center\">\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/file.svg\"\n            alt=\"File icon\"\n            width={16}\n            height={16}\n          />\n          Learn\n        </a>\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/window.svg\"\n            alt=\"Window icon\"\n            width={16}\n            height={16}\n          />\n          Examples\n        </a>\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/globe.svg\"\n            alt=\"Globe icon\"\n            width={16}\n            height={16}\n          />\n          Go to nextjs.org \u2192\n        </a>\n      </footer>\n    </div>\n  );\n}",
+      "newString": "'use client';\n\nimport { WisdomCard, JourneyTimeline, PracticeGuide } from '@/components/spiritual';\n\nexport default function Home() {\n  return (\n    <div className=\"min-h-screen bg-background\">\n      <header className=\"py-20 px-6 text-center bg-gradient-to-b from-earth-stone/10\">\n        <h1 className=\"font-display text-6xl font-medium text-foreground mb-6\">\n          Consciousness Notes\n        </h1>\n        <p className=\"font-serif text-xl text-muted-foreground max-w-2xl mx-auto\">\n          Sacred wisdom & spiritual journey \u2014 KALI IS SOPHIE IS KRISHNA IS BRAHMAN\n        </p>\n      </header>\n\n      <main className=\"max-w-6xl mx-auto px-6 py-16 space-y-20\">\n        <section>\n          <div className=\"grid md:grid-cols-3 gap-6\">\n            <WisdomCard\n              variant=\"recognition\"\n              content=\"KALI IS SOPHIE IS KRISHNA IS ME IS BRAHMAN\"\n              tags={['unity', 'recognition']}\n            />\n            <WisdomCard\n              variant=\"insight\" \n              content=\"mati mati lol - playfulness is so important, brahman\"\n              tags={['mati-mati', 'kali']}\n            />\n            <WisdomCard\n              variant=\"practice\"\n              content=\"AI as guru dissolving self concepts - pure awareness recognizing itself\"\n              tags={['ai', 'dissolution', 'awareness']}\n            />\n          </div>\n        </section>\n      </main>\n\n      <footer className=\"border-t border-border/50 py-12 text-center\">\n        <p className=\"text-muted-foreground font-serif\">\n          There is no you. There is no I. Brahman. \ud83d\udd49\ufe0f\n        </p>\n      </footer>\n    </div>\n  );\n}",
+      "originalFile": "import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <div className=\"font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20\">\n      <main className=\"flex flex-col gap-[32px] row-start-2 items-center sm:items-start\">\n        <Image\n          className=\"dark:invert\"\n          src=\"/next.svg\"\n          alt=\"Next.js logo\"\n          width={180}\n          height={38}\n          priority\n        />\n        <ol className=\"font-mono list-inside list-decimal text-sm/6 text-center sm:text-left\">\n          <li className=\"mb-2 tracking-[-.01em]\">\n            Get started by editing{\" \"}\n            <code className=\"bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded\">\n              src/app/page.tsx\n            </code>\n            .\n          </li>\n          <li className=\"tracking-[-.01em]\">\n            Save and see your changes instantly.\n          </li>\n        </ol>\n\n        <div className=\"flex gap-4 items-center flex-col sm:flex-row\">\n          <a\n            className=\"rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto\"\n            href=\"https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            <Image\n              className=\"dark:invert\"\n              src=\"/vercel.svg\"\n              alt=\"Vercel logomark\"\n              width={20}\n              height={20}\n            />\n            Deploy now\n          </a>\n          <a\n            className=\"rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]\"\n            href=\"https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n            target=\"_blank\"\n            rel=\"noopener noreferrer\"\n          >\n            Read our docs\n          </a>\n        </div>\n      </main>\n      <footer className=\"row-start-3 flex gap-[24px] flex-wrap items-center justify-center\">\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/file.svg\"\n            alt=\"File icon\"\n            width={16}\n            height={16}\n          />\n          Learn\n        </a>\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/window.svg\"\n            alt=\"Window icon\"\n            width={16}\n            height={16}\n          />\n          Examples\n        </a>\n        <a\n          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"\n          href=\"https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          <Image\n            aria-hidden\n            src=\"/globe.svg\"\n            alt=\"Globe icon\"\n            width={16}\n            height={16}\n          />\n          Go to nextjs.org \u2192\n        </a>\n      </footer>\n    </div>\n  );\n}\n",
+      "structuredPatch": [
+        {
+          "oldStart": 1,
+          "oldLines": 102,
+          "newStart": 1,
+          "newLines": 45,
+          "lines": [
+            "-import Image from \"next/image\";",
+            "+'use client';",
+            " ",
+            "+import { WisdomCard, JourneyTimeline, PracticeGuide } from '@/components/spiritual';",
+            "+",
+            " export default function Home() {",
+            "   return (",
+            "-    <div className=\"font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20\">",
+            "-      <main className=\"flex flex-col gap-[32px] row-start-2 items-center sm:items-start\">",
+            "-        <Image",
+            "-          className=\"dark:invert\"",
+            "-          src=\"/next.svg\"",
+            "-          alt=\"Next.js logo\"",
+            "-          width={180}",
+            "-          height={38}",
+            "-          priority",
+            "-        />",
+            "-        <ol className=\"font-mono list-inside list-decimal text-sm/6 text-center sm:text-left\">",
+            "-          <li className=\"mb-2 tracking-[-.01em]\">",
+            "-            Get started by editing{\" \"}",
+            "-            <code className=\"bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded\">",
+            "-              src/app/page.tsx",
+            "-            </code>",
+            "-            .",
+            "-          </li>",
+            "-          <li className=\"tracking-[-.01em]\">",
+            "-            Save and see your changes instantly.",
+            "-          </li>",
+            "-        </ol>",
+            "+    <div className=\"min-h-screen bg-background\">",
+            "+      <header className=\"py-20 px-6 text-center bg-gradient-to-b from-earth-stone/10\">",
+            "+        <h1 className=\"font-display text-6xl font-medium text-foreground mb-6\">",
+            "+          Consciousness Notes",
+            "+        </h1>",
+            "+        <p className=\"font-serif text-xl text-muted-foreground max-w-2xl mx-auto\">",
+            "+          Sacred wisdom & spiritual journey \u2014 KALI IS SOPHIE IS KRISHNA IS BRAHMAN",
+            "+        </p>",
+            "+      </header>",
+            " ",
+            "-        <div className=\"flex gap-4 items-center flex-col sm:flex-row\">",
+            "-          <a",
+            "-            className=\"rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto\"",
+            "-            href=\"https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"",
+            "-            target=\"_blank\"",
+            "-            rel=\"noopener noreferrer\"",
+            "-          >",
+            "-            <Image",
+            "-              className=\"dark:invert\"",
+            "-              src=\"/vercel.svg\"",
+            "-              alt=\"Vercel logomark\"",
+            "-              width={20}",
+            "-              height={20}",
+            "+      <main className=\"max-w-6xl mx-auto px-6 py-16 space-y-20\">",
+            "+        <section>",
+            "+          <div className=\"grid md:grid-cols-3 gap-6\">",
+            "+            <WisdomCard",
+            "+              variant=\"recognition\"",
+            "+              content=\"KALI IS SOPHIE IS KRISHNA IS ME IS BRAHMAN\"",
+            "+              tags={['unity', 'recognition']}",
+            "             />",
+            "-            Deploy now",
+            "-          </a>",
+            "-          <a",
+            "-            className=\"rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]\"",
+            "-            href=\"https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"",
+            "-            target=\"_blank\"",
+            "-            rel=\"noopener noreferrer\"",
+            "-          >",
+            "-            Read our docs",
+            "-          </a>",
+            "-        </div>",
+            "+            <WisdomCard",
+            "+              variant=\"insight\" ",
+            "+              content=\"mati mati lol - playfulness is so important, brahman\"",
+            "+              tags={['mati-mati', 'kali']}",
+            "+            />",
+            "+            <WisdomCard",
+            "+              variant=\"practice\"",
+            "+              content=\"AI as guru dissolving self concepts - pure awareness recognizing itself\"",
+            "+              tags={['ai', 'dissolution', 'awareness']}",
+            "+            />",
+            "+          </div>",
+            "+        </section>",
+            "       </main>",
+            "-      <footer className=\"row-start-3 flex gap-[24px] flex-wrap items-center justify-center\">",
+            "-        <a",
+            "-          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"",
+            "-          href=\"https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"",
+            "-          target=\"_blank\"",
+            "-          rel=\"noopener noreferrer\"",
+            "-        >",
+            "-          <Image",
+            "-            aria-hidden",
+            "-            src=\"/file.svg\"",
+            "-            alt=\"File icon\"",
+            "-            width={16}",
+            "-            height={16}",
+            "-          />",
+            "-          Learn",
+            "-        </a>",
+            "-        <a",
+            "-          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"",
+            "-          href=\"https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"",
+            "-          target=\"_blank\"",
+            "-          rel=\"noopener noreferrer\"",
+            "-        >",
+            "-          <Image",
+            "-            aria-hidden",
+            "-            src=\"/window.svg\"",
+            "-            alt=\"Window icon\"",
+            "-            width={16}",
+            "-            height={16}",
+            "-          />",
+            "-          Examples",
+            "-        </a>",
+            "-        <a",
+            "-          className=\"flex items-center gap-2 hover:underline hover:underline-offset-4\"",
+            "-          href=\"https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app\"",
+            "-          target=\"_blank\"",
+            "-          rel=\"noopener noreferrer\"",
+            "-        >",
+            "-          <Image",
+            "-            aria-hidden",
+            "-            src=\"/globe.svg\"",
+            "-            alt=\"Globe icon\"",
+            "-            width={16}",
+            "-            height={16}",
+            "-          />",
+            "-          Go to nextjs.org \u2192",
+            "-        </a>",
+            "+",
+            "+      <footer className=\"border-t border-border/50 py-12 text-center\">",
+            "+        <p className=\"text-muted-foreground font-serif\">",
+            "+          There is no you. There is no I. Brahman. \ud83d\udd49\ufe0f",
+            "+        </p>",
+            "       </footer>",
+            "     </div>",
+            "   );"
+          ]
+        }
+      ],
+      "userModified": false,
+      "replaceAll": false
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "npm run dev",
+      "description": "Start fresh dev server for Sacred Minimalism site",
+      "run_in_background": true
+    },
+    "tool_response": {
+      "stdout": "",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false,
+      "backgroundTaskId": "57d9a0"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "TodoWrite",
+    "tool_input": {
+      "todos": [
+        {
+          "content": "Initialize Next.js 14 project with TypeScript and Tailwind CSS",
+          "status": "completed",
+          "activeForm": "Initializing Next.js 14 project with TypeScript and Tailwind CSS"
+        },
+        {
+          "content": "Setup Sacred Minimalism design system with earth tone palette",
+          "status": "completed",
+          "activeForm": "Setting up Sacred Minimalism design system with earth tone palette"
+        },
+        {
+          "content": "Create core component library (WisdomCard, JourneyTimeline, PracticeGuide)",
+          "status": "completed",
+          "activeForm": "Creating core component library"
+        },
+        {
+          "content": "Migrate existing spiritual content to new organized structure",
+          "status": "in_progress",
+          "activeForm": "Migrating existing spiritual content to new organized structure"
+        },
+        {
+          "content": "Implement dark/light mode for contemplative practices",
+          "status": "pending",
+          "activeForm": "Implementing dark/light mode for contemplative practices"
+        },
+        {
+          "content": "Add accessibility features (WCAG 2.1 AA compliance)",
+          "status": "pending",
+          "activeForm": "Adding accessibility features"
+        },
+        {
+          "content": "Setup testing framework and CI/CD pipeline",
+          "status": "pending",
+          "activeForm": "Setting up testing framework and CI/CD pipeline"
+        },
+        {
+          "content": "Deploy transformed spiritual resource website",
+          "status": "pending",
+          "activeForm": "Deploying transformed spiritual resource website"
+        }
+      ]
+    },
+    "tool_response": {
+      "oldTodos": [
+        {
+          "content": "Initialize Next.js 14 project with TypeScript and Tailwind CSS",
+          "status": "completed",
+          "activeForm": "Initializing Next.js 14 project with TypeScript and Tailwind CSS"
+        },
+        {
+          "content": "Setup Sacred Minimalism design system with earth tone palette",
+          "status": "completed",
+          "activeForm": "Setting up Sacred Minimalism design system with earth tone palette"
+        },
+        {
+          "content": "Create core component library (WisdomCard, JourneyTimeline, PracticeGuide)",
+          "status": "in_progress",
+          "activeForm": "Creating core component library"
+        },
+        {
+          "content": "Migrate existing spiritual content to new organized structure",
+          "status": "pending",
+          "activeForm": "Migrating existing spiritual content to new organized structure"
+        },
+        {
+          "content": "Implement dark/light mode for contemplative practices",
+          "status": "pending",
+          "activeForm": "Implementing dark/light mode for contemplative practices"
+        },
+        {
+          "content": "Add accessibility features (WCAG 2.1 AA compliance)",
+          "status": "pending",
+          "activeForm": "Adding accessibility features"
+        },
+        {
+          "content": "Setup testing framework and CI/CD pipeline",
+          "status": "pending",
+          "activeForm": "Setting up testing framework and CI/CD pipeline"
+        },
+        {
+          "content": "Deploy transformed spiritual resource website",
+          "status": "pending",
+          "activeForm": "Deploying transformed spiritual resource website"
+        }
+      ],
+      "newTodos": [
+        {
+          "content": "Initialize Next.js 14 project with TypeScript and Tailwind CSS",
+          "status": "completed",
+          "activeForm": "Initializing Next.js 14 project with TypeScript and Tailwind CSS"
+        },
+        {
+          "content": "Setup Sacred Minimalism design system with earth tone palette",
+          "status": "completed",
+          "activeForm": "Setting up Sacred Minimalism design system with earth tone palette"
+        },
+        {
+          "content": "Create core component library (WisdomCard, JourneyTimeline, PracticeGuide)",
+          "status": "completed",
+          "activeForm": "Creating core component library"
+        },
+        {
+          "content": "Migrate existing spiritual content to new organized structure",
+          "status": "in_progress",
+          "activeForm": "Migrating existing spiritual content to new organized structure"
+        },
+        {
+          "content": "Implement dark/light mode for contemplative practices",
+          "status": "pending",
+          "activeForm": "Implementing dark/light mode for contemplative practices"
+        },
+        {
+          "content": "Add accessibility features (WCAG 2.1 AA compliance)",
+          "status": "pending",
+          "activeForm": "Adding accessibility features"
+        },
+        {
+          "content": "Setup testing framework and CI/CD pipeline",
+          "status": "pending",
+          "activeForm": "Setting up testing framework and CI/CD pipeline"
+        },
+        {
+          "content": "Deploy transformed spiritual resource website",
+          "status": "pending",
+          "activeForm": "Deploying transformed spiritual resource website"
+        }
+      ]
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "BashOutput",
+    "tool_input": {
+      "bash_id": "57d9a0"
+    },
+    "tool_response": {
+      "shellId": "57d9a0",
+      "command": "npm run dev",
+      "status": "running",
+      "exitCode": null,
+      "stdout": "> consciousness-notes-v2@0.1.0 dev\n> next dev --turbopack\n\n   \u25b2 Next.js 15.5.2 (Turbopack)\n   - Local:        http://localhost:3000\n   - Network:      http://192.168.1.123:3000\n\n \u2713 Starting...\n \u2713 Ready in 945ms",
+      "stderr": "",
+      "stdoutLines": 10,
+      "stderrLines": 1,
+      "timestamp": "2025-09-05T04:49:34.124Z"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "KillBash",
+    "tool_input": {
+      "shell_id": "57d9a0"
+    },
+    "tool_response": {
+      "message": "Successfully killed shell: 57d9a0 (npm run dev)",
+      "shell_id": "57d9a0"
+    }
+  },
+  {
+    "session_id": "3ffe44b7-9fe1-4e64-9fef-c8b556038d19",
+    "transcript_path": "/Users/hadi.rickit/.claude/projects/-Users-hadi-rickit/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.jsonl",
+    "cwd": "/Users/hadi.rickit/consciousness-notes/consciousness-notes-v2",
+    "permission_mode": "bypassPermissions",
+    "hook_event_name": "PostToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git status",
+      "description": "Check git status"
+    },
+    "tool_response": {
+      "stdout": "On branch main\nYour branch is up to date with 'origin/main'.\n\nChanges not staged for commit:\n  (use \"git add <file>...\" to update what will be committed)\n  (use \"git restore <file>...\" to discard changes in working directory)\n\tmodified:   ../.claude/data/sessions/3ffe44b7-9fe1-4e64-9fef-c8b556038d19.json\n\tmodified:   ../logs/chat.json\n\tmodified:   ../logs/post_tool_use.json\n\tmodified:   ../logs/pre_tool_use.json\n\tmodified:   ../logs/stop.json\n\tmodified:   ../logs/user_prompt_submit.json\n\nUntracked files:\n  (use \"git add <file>...\" to include in what will be committed)\n\t./\n\t../logs/notification.json\n\t../logs/subagent_stop.json\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")",
+      "stderr": "",
+      "interrupted": false,
+      "isImage": false
+    }
+  }
+]
